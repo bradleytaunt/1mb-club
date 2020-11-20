@@ -6,8 +6,10 @@ Live collection: <a href="https://1mb.club">1mb.club</a>
 
 ---
 
-## Adding a web page
+## Adding a web page - UPDATED
 
-Simply open an issue in this repo linking to the URL you would like to see added to the collection. If it passes review, it will be added to the main list website.
+I have currently paused submissions for this project, since a large amount of submissions have already come in that I will need to tackle :P
 
-**Remember, the web page cannot be larger than 1MB in size.**
+This process takes a while since I need to manually check each site (make sure they are legit, no malware etc.). Once I've cleared the current issues, I will allow submission again!
+
+Thank you for the huge amount of interest!
