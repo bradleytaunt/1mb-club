@@ -1,0 +1,31 @@
+---
+layout: default
+title: Articles &amp; Essays
+summary: Personal articles, demos and occasional ramblings
+---
+
+<header>
+    <h1>1MB Club</h1>
+    <p>The internet has become a <em>bloated mess</em>. Massive javascript libraries. Countless client-side queries. Overly complex frontend frameworks.</p>
+    <p>These things are a <strong>cancerous growth</strong> on the web.</p>
+    <p>But we can make a difference - no matter how small it may seem. <em>1MB Club</em> is a growing collection of performance-focused web pages found across the internet. The one and only rule for a web page to qualify as a member:</p>
+    <ol>
+        <li>Total resources downloaded client-side must not exceed 1 megabyte</li>
+    </ol>
+    <blockquote>
+        <p><strong>Update</strong></p>
+        <p>Due to the huge number of submissions on initial launch, requesting new sites to be added is temporarily paused. Once the backlog has been worked through, submissions will open up again. Thanks!</p>
+    </blockquote>
+</header>
+
+<main>
+    <ul>
+    {% for item in site.site_listings %}
+        <li>
+            <span class="before" style="--data-size:{{ item.size }};"></span>
+            <span class="after">{{ item.size }} kb</span>
+            <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+</main>
