@@ -20,7 +20,8 @@ summary: Personal articles, demos and occasional ramblings
 
 <main>
     <ul>
-    {% for item in site.site_listings %}
+    {% assign site_items = site.site_listings | sort: 'size' %}
+    {% for item in site_items %}
         <li>
             <span class="before" style="--data-size:{{ item.size }};"></span>
             <span class="after">{{ item.size }} kb</span>

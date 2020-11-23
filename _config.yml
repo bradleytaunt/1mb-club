@@ -27,7 +27,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Collections
 collections:
   site_listings:
-    sort_by: size
     output: true
 
 # Build settings
