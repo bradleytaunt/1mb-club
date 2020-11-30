@@ -16,17 +16,81 @@ summary: Personal articles, demos and occasional ramblings
         <p><strong>Update</strong></p>
         <p>Due to the huge number of submissions on initial launch, requesting new sites to be added is temporarily paused. Once the backlog has been worked through, submissions will open up again. Thanks!</p>
     </blockquote>
+    <span>Jump to: &nbsp;</span>
+    <a href="#50">&#60;50KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
+    <a href="#100">&#60;100KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
+    <a href="#250">&#60;250KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
+    <a href="#512">&#60;512KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
+    <a href="#700">&#60;700KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
+    <a href="#1000"><em>Just Under</em> 1MB</a>
 </header>
 
 <main>
     <ul>
     {% assign site_items = site.site_listings | sort: 'size' %}
+    <h3 id="50"><50KB</h3>
     {% for item in site_items %}
-        <li>
-            <span class="before" style="--data-size:{{ item.size }};"></span>
-            <span class="after">{{ item.size }} kb</span>
-            <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
-        </li>
+        {% if item.size <= 50 %}
+            <li>
+                <span class="before" style="--data-size:{{ item.size }};"></span>
+                <span class="after">{{ item.size }} kb</span>
+                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+            </li>
+        {% endif %}
     {% endfor %}
-    </ul>
+
+    <h3 id="100"><100KB</h3>
+    {% for item in site_items %}
+        {% if item.size >= 50 and item.size <=100 %}
+            <li>
+                <span class="before" style="--data-size:{{ item.size }};"></span>
+                <span class="after">{{ item.size }} kb</span>
+                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+
+    <h3 id="250"><250KB</h3>
+    {% for item in site_items %}
+        {% if item.size >= 100 and item.size <=250 %}
+            <li>
+                <span class="before" style="--data-size:{{ item.size }};"></span>
+                <span class="after">{{ item.size }} kb</span>
+                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+
+    <h3 id="512"><512KB</h3>
+    {% for item in site_items %}
+        {% if item.size >= 250 and item.size <=512 %}
+            <li>
+                <span class="before" style="--data-size:{{ item.size }};"></span>
+                <span class="after">{{ item.size }} kb</span>
+                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+
+    <h3 id="700"><700KB</h3>
+    {% for item in site_items %}
+        {% if item.size >= 512 and item.size <=700 %}
+            <li>
+                <span class="before" style="--data-size:{{ item.size }};"></span>
+                <span class="after">{{ item.size }} kb</span>
+                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+
+    <h3 id="1000"><em>Just Under</em> 1MB</h3>
+    {% for item in site_items %}
+        {% if item.size >= 700 and item.size <=1000 %}
+            <li>
+                <span class="before" style="--data-size:{{ item.size }};"></span>
+                <span class="after">{{ item.size }} kb</span>
+                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
 </main>
