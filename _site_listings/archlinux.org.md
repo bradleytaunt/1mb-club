@@ -1,4 +1,4 @@
 ---
 pageurl: archlinux.org
-size: 88.63
+size: 88.6
 ---
