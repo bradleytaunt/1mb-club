@@ -46,7 +46,7 @@ ul li span.after {
 ul li span.before {
     background: rgba(0,0,0,0.1);
     height: 100%;
-    width: calc(var(--data-size)/1024 * 100%);
+    width: calc(var(--data-size)/1000 * 100%);
     z-index: 0;
 }
 ul li span.after {
