@@ -1,4 +1,4 @@
 ---
 pageurl: fabiensanglard.net
-size: 46.7
+size: 46.9
 ---
