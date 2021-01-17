@@ -1,4 +1,4 @@
 ---
-pageurl: MinWiz.com
-size: 2.3
+pageurl: minwiz.com
+size: 3.2
 ---
