@@ -10,7 +10,7 @@ Live collection: <a href="https://1mb.club">1mb.club</a>
 
 In order to submit a website you must adhere to the following process:
 
-1. Check to see if the website you are submitting had already been added
+1. Check to see if the website you are submitting has already been added
 2. Use <a href="https://tools.pingdom.com">tools.pingdom.com</a> to get the proper page weight
 3. Open a new PR:
     - Create a new file under the `_site_listings` directory
