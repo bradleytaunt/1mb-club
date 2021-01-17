@@ -6,10 +6,22 @@ Live collection: <a href="https://1mb.club">1mb.club</a>
 
 ---
 
-## Adding a web page - UPDATED
+## Submitting a Website
 
-I have currently paused submissions for this project (by archiving the repo), since a large amount of submissions have already come in that I will need to tackle :P
+In order to submit a website you must adhere to the following process:
 
-This process takes a while since I need to manually check each site (make sure they are legit, no malware etc.). Once I've cleared the current issues, I will unarchive this project and allow submission once again!
+1. Check to see if the website you are submitting had already been added
+2. Use <a href="https://tools.pingdom.com">tools.pingdom.com</a> to get the proper page weight
+3. Open a new PR:
+    - Create a new file under the `_site_listings` directory
+    - Name that file as `yourwebsitedomain.com.md` (see other listings for examples)
+    - Edit the frontmatter data to reflect the new web page details
+4. Submit the PR for review
 
-Thank you for the huge amount of interest!
+### Review &amp; Accepting Submissions
+
+**All websites submitted will be manually reviewed for honesty and quality assurance.**
+
+1MB Club has the final say whether a website is added to the official listing or not. Spam, low-quality pages, or shady SEO gimmicks will not be tolerated. If your website is not accepted, negative arguments or complaints will be ignored and deleted.
+
+I look forward to seeing all your high quality, low-bandwidth web pages!

@@ -1,4 +1,4 @@
 ---
 pageurl: sourcehut.org
-size: 116.3
+size: 84.7
 ---
