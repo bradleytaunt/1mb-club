@@ -107,6 +107,31 @@ footer p {
     font-size: 85%;
 }
 
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #2d2d2d;
+        color: white;
+    }
+    .referral {
+        background: rgba(108, 95, 245, 0.4);
+        color: white;
+    }
+    .referral a, .referral a:visited {
+        color: white;
+    }
+    blockquote {
+        background: #191919;
+        border-left: 5px solid black;
+    }
+    ul li {
+        background: rgba(0,0,0,0.2);
+    }
+    ul li span.before {
+        background: rgba(0,0,0,0.5);
+    }
+}
+
 @media(max-width:500px) {
     body {
         font: 16px/1.5 "Helvetica", "Arial", sans-serif;
