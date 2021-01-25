@@ -1,4 +1,4 @@
 ---
 pageurl: indiemakers.fr
-size: 399.3
+size: 407.3
 ---
