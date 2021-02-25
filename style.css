@@ -26,18 +26,18 @@ a:hover,a:focus {
 }
 
 .referral {
-    background: rgba(108, 95, 245, 0.1);
-    border-left: 5px solid rgba(108, 95, 245, 1);
-    color: slategrey;
+    background: #27ae60;
+    color: white;
     margin: 1rem 0 2rem;
     padding: 10px;
+    text-align: center;
 }
 .referral p {
     margin: 0;
     padding: 0;
 }
 .referral a, .referral a:visited {
-    color: rgba(108, 95, 245, 1);
+    color: white;
     font-weight: 600;
 }
 .referral a:hover, .referral a:focus {
@@ -111,13 +111,6 @@ footer p {
 @media (prefers-color-scheme: dark) {
     body {
         background: #2d2d2d;
-        color: white;
-    }
-    .referral {
-        background: rgba(108, 95, 245, 0.4);
-        color: white;
-    }
-    .referral a, .referral a:visited {
         color: white;
     }
     blockquote {
