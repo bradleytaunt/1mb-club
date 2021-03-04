@@ -1,4 +1,4 @@
 ---
-pageurl: www.exchangerate-api.com
+pageurl: exchangerate-api.com
 size: 438.1
 ---
