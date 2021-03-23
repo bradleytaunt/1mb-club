@@ -1,4 +1,4 @@
 ---
 pageurl: lecaro.me/minimage
-size: 16.9
+size: 19.1
 ---
