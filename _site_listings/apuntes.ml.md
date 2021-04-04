@@ -1,4 +1,4 @@
 ---
 pageurl: apuntes.ml
-size: 57
+size: 57.0
 ---
