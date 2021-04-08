@@ -1,4 +1,4 @@
 ---
 pageurl: m-chrzan.xyz
-size: 6.5
+size: 3.5
 ---
