@@ -1,4 +1,4 @@
 ---
 pageurl: uglyduck.ca
-size: 626.0
+size: 3.5
 ---
