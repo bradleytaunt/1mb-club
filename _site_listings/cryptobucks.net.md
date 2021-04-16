@@ -1,4 +1,4 @@
 ---
 pageurl: cryptobucks.net
-size: 493.9
+size: 48.6
 ---
