@@ -56,7 +56,7 @@ summary: Listing all websites under 1MB in total size
         <tbody>
     {% assign site_items = site.site_listings | sort: 'size' %}
     <tr><td><br></td><td><br></td></tr>
-    <tr><td id="50">&lt;50KB</td><td></td></tr>
+    <tr class="size-section"><td id="50">&lt;50KB</td><td></td></tr>
     {% for item in site_items %}
         {% if item.size <= 50 %}
             <tr>
@@ -67,7 +67,7 @@ summary: Listing all websites under 1MB in total size
     {% endfor %}
 
     <tr><td><br></td><td><br></td></tr>
-    <tr><td id="100">&lt;100KB</td><td></td></tr>
+    <tr class="size-section"><td id="100">&lt;100KB</td><td></td></tr>
     {% for item in site_items %}
         {% if item.size >= 50.1 and item.size <=100 %}
             <tr>
@@ -78,7 +78,7 @@ summary: Listing all websites under 1MB in total size
     {% endfor %}
 
     <tr><td><br></td><td><br></td></tr>
-    <tr><td id="250">&lt;250KB</td><td></td></tr>
+    <tr class="size-section"><td id="250">&lt;250KB</td><td></td></tr>
     {% for item in site_items %}
         {% if item.size >= 100.1 and item.size <=250 %}
             <tr>
@@ -89,7 +89,7 @@ summary: Listing all websites under 1MB in total size
     {% endfor %}
 
     <tr><td><br></td><td><br></td></tr>
-    <tr><td id="512">&lt;512KB</td><td></td></tr>
+    <tr class="size-section"><td id="512">&lt;512KB</td><td></td></tr>
     {% for item in site_items %}
         {% if item.size >= 250.1 and item.size <=512 %}
             <tr>
@@ -100,7 +100,7 @@ summary: Listing all websites under 1MB in total size
     {% endfor %}
 
     <tr><td><br></td><td><br></td></tr>
-    <tr><td id="700">&lt;700KB</td><td></td></tr>
+    <tr class="size-section"><td id="700">&lt;700KB</td><td></td></tr>
     {% for item in site_items %}
         {% if item.size >= 512.1 and item.size <=700 %}
             <tr>
@@ -111,7 +111,7 @@ summary: Listing all websites under 1MB in total size
     {% endfor %}
 
     <tr><td><br></td><td><br></td></tr>
-    <tr><td id="1000"><i>Just Under</i> 1MB</td><td></td></tr>
+    <tr class="size-section"><td id="1000"><i>Just Under</i> 1MB</td><td></td></tr>
     {% for item in site_items %}
         {% if item.size >= 700.1 and item.size <=1000 %}
             <tr>

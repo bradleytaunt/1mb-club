@@ -1,3 +1,7 @@
+body{margin:0 auto;max-width:75ch;padding:10px;}
+table{border-collapse:collapse;width:100%;}
+table tbody tr:nth-of-type(even) td{background:#f9f9f9;}
+table tbody tr.size-section td{background:#191919;color:white;}
 @media (prefers-color-scheme: dark) {
     body{background:#191919;filter:invert(1);}
 }
