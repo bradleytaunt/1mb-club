@@ -10,3 +10,7 @@ host: 0.0.0.0
 collections:
   site_listings:
     output: false
+
+exclude:
+  - generate.sh
+  - README.md
