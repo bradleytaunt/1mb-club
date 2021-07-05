@@ -6,12 +6,13 @@ summary: Listing all websites under 1MB in total size
 
 <header>
     <h1>1MB Club</h1>
-    <p>The internet has become a <em>bloated mess</em>. Massive javascript libraries. Countless client-side queries. Overly complex frontend frameworks.</p>
+    <p>The internet has become a <em>bloated mess</em>. Massive JavaScript libraries. Countless client-side queries. Overly complex frontend frameworks.</p>
     <p>These things are a <strong>cancerous growth</strong> on the web.</p>
     <p>But we can make a difference - no matter how small it may seem. <em>1MB Club</em> is a growing collection of performance-focused web pages found across the internet.</p>
     <p><strong>The one and only rule for a web page to qualify as a member:</strong></p>
     <ol>
-        <li>Total website size (not <i>just</i> transfered data) must not exceed 1 megabyte</li>
+        <li>Total website size (not <i>just</i> transferred data) must not exceed 1 megabyte</li>
+        <li>The website must contain a reasonable amount of content / usefulness in order to be added - no sites with a simple line of text, etc.</li>
     </ol>
     <hr>
     <details>
@@ -63,7 +64,7 @@ summary: Listing all websites under 1MB in total size
     {% for item in site_items %}
         {% if item.size <= 50 %}
             <tr>
-                <td><a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
+                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
         {% endif %}
@@ -74,7 +75,7 @@ summary: Listing all websites under 1MB in total size
     {% for item in site_items %}
         {% if item.size >= 50.1 and item.size <=100 %}
             <tr>
-                <td><a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
+                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
         {% endif %}
@@ -85,7 +86,7 @@ summary: Listing all websites under 1MB in total size
     {% for item in site_items %}
         {% if item.size >= 100.1 and item.size <=250 %}
             <tr>
-                <td><a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
+                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
         {% endif %}
@@ -96,7 +97,7 @@ summary: Listing all websites under 1MB in total size
     {% for item in site_items %}
         {% if item.size >= 250.1 and item.size <=512 %}
             <tr>
-                <td><a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
+                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
         {% endif %}
@@ -107,7 +108,7 @@ summary: Listing all websites under 1MB in total size
     {% for item in site_items %}
         {% if item.size >= 512.1 and item.size <=700 %}
             <tr>
-                <td><a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
+                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
         {% endif %}
@@ -118,7 +119,7 @@ summary: Listing all websites under 1MB in total size
     {% for item in site_items %}
         {% if item.size >= 700.1 and item.size <=1000 %}
             <tr>
-                <td><a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
+                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
         {% endif %}
