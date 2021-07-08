@@ -1,4 +1,4 @@
 ---
 pageurl: artemislena.eu
-size: 44.6
+size: 36.0
 ---
