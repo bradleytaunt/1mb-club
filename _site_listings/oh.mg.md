@@ -1,4 +1,4 @@
 ---
-pageurl: https://oh.mg/
+pageurl: oh.mg
 size: 82.9 KB
 ---
