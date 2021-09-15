@@ -1,4 +1,4 @@
 ---
-pageurl: www.pascalbakker.xyz
+pageurl: pascalbakker.xyz
 size: 51.2
 ---
