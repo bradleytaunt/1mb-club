@@ -1,4 +1,4 @@
 ---
 pageurl: na20a.neocities.org
-size: 26.3
+size: 9.8
 ---
