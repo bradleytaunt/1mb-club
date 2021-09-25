@@ -1,4 +1,4 @@
 ---
 pageurl: xslendi.xyz
-size: 80.0
+size: 5.2
 ---
