@@ -1,4 +1,4 @@
 ---
 pageurl: ant.cosenti.no
-size: 26
+size: 24.4
 ---
