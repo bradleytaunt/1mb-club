@@ -1,4 +1,4 @@
 ---
 pageurl: zwbetz.com
-size: 437.1
+size: 56.4
 ---
