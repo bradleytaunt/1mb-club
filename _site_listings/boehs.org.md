@@ -1,4 +1,4 @@
 ---
 pageurl: boehs.org
-size: 10.0
+size: 8.1
 ---
