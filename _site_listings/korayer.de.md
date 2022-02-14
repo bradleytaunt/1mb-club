@@ -1,4 +1,4 @@
 ---
 pageurl: korayer.de
-size: 9.4
+size: 3.2
 ---
