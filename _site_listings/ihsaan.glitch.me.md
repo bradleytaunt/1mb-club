@@ -1,4 +1,4 @@
 ---
 pageurl: ihsaan.glitch.me
-size: 121
+size: 110
 ---
