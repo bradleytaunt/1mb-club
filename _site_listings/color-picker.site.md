@@ -1,4 +1,4 @@
 ---
 pageurl: color-picker.site
-size: 66.8 KB
+size: 66.8
 ---
