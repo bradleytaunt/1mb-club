@@ -1,4 +1,4 @@
 ---
-pageurl: copypastelist.com
+pageurl: copypastelist.co
 size: 239.6
 ---
