@@ -1,4 +1,4 @@
 ---
 pageurl: copypastelist.co
-size: 239.6
+size: 343.6
 ---
