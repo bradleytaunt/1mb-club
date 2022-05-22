@@ -1,4 +1,4 @@
 ---
 pageurl: person-al.github.io
-size: 66.3
+size: 36.1
 ---
