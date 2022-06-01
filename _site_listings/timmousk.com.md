@@ -1,4 +1,4 @@
 ---
-pageurl: https://timmousk.com/
+pageurl: timmousk.com
 size: 612.5
 ---
