@@ -22,14 +22,12 @@ summary: Listing all websites under 1MB in total size
     <hr>
     <details>
         <summary><strong>How can I help support this project?</strong></summary>
-        <p>If you are feeling generous, I would greatly appreciate any donations to help support the site.</p>
-        <ol>
-            <li>XMR: <pre><code>84Pd48H5qSX2B5bBy881A73KmgdQxmRPg9pQ9faftMWEfRpQmbesiishjnYBhRy5dj6No8a1ksCYpdPbiypWxdMw3GD5zwD</code></pre></li>
-            <li>BTC: <pre><code>3JGsvjgxamQHi4VCALER4rXvnvzdWUaQGg</code></pre></li>
-            <li>ETH: <pre><code>0x5a0c2841aa63c8abd5ee9b9bd67092ecb55221c2</code></pre></li>
-            <li>BCH: <pre><code>pze5vzlh7hv9lrdj6s0q2t20ylzp7uvpvc69jkpdsw</code></pre></li>
-            <li>Or simply <a href="https://www.buymeacoffee.com/WQTMtn7ir">buy me a coffee</a></li>
-        </ol>
+        <p>If you are feeling generous, I would greatly appreciate <a href="https://en.liberapay.com/tdarb/">any donations to help support the site.</a></p>
+    </details>
+    <hr>
+    <details>
+        <summary><strong>Why is the members list randomized?</strong></summary>
+        <p>This gives visitors the ability to see interesting and new websites everytime they visit! It also prevents odd instances of "racing to the top".</p>
     </details>
     <hr>
     <details>
@@ -42,13 +40,6 @@ summary: Listing all websites under 1MB in total size
 
 <main>
     <h2>Official Members</h2>
-    <span>Jump to: &nbsp;</span>
-    <a href="#50">&#60;50KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#100">&#60;100KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#250">&#60;250KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#512">&#60;512KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#700">&#60;700KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#1000"><em>Just Under</em> 1MB</a>
     <hr><br>
     <table>
         <thead align="left">
@@ -57,75 +48,24 @@ summary: Listing all websites under 1MB in total size
                 <th align="right">Size (KB)</th>
             </tr>
         </thead>
-        <tbody>
-    {% assign site_items = site.site_listings | sort: 'size' %}
-    <tr><td><br></td><td><br></td></tr>
-    <tr class="size-section"><td id="50">&lt;50KB</td><td></td></tr>
-    {% for item in site_items %}
-        {% if item.size <= 50 %}
+        <tbody id="container">
+        {% assign websites = site.site_listings %}
+        {% for item in websites %}
             <tr>
                 <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
-        {% endif %}
-    {% endfor %}
-
-    <tr><td><br></td><td><br></td></tr>
-    <tr class="size-section"><td id="100">&lt;100KB</td><td></td></tr>
-    {% for item in site_items %}
-        {% if item.size >= 50.1 and item.size <=100 %}
-            <tr>
-                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
-                <td align="right"><span>{{ item.size }}</span></td>
-            </tr>
-        {% endif %}
-    {% endfor %}
-
-    <tr><td><br></td><td><br></td></tr>
-    <tr class="size-section"><td id="250">&lt;250KB</td><td></td></tr>
-    {% for item in site_items %}
-        {% if item.size >= 100.1 and item.size <=250 %}
-            <tr>
-                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
-                <td align="right"><span>{{ item.size }}</span></td>
-            </tr>
-        {% endif %}
-    {% endfor %}
-
-    <tr><td><br></td><td><br></td></tr>
-    <tr class="size-section"><td id="512">&lt;512KB</td><td></td></tr>
-    {% for item in site_items %}
-        {% if item.size >= 250.1 and item.size <=512 %}
-            <tr>
-                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
-                <td align="right"><span>{{ item.size }}</span></td>
-            </tr>
-        {% endif %}
-    {% endfor %}
-
-    <tr><td><br></td><td><br></td></tr>
-    <tr class="size-section"><td id="700">&lt;700KB</td><td></td></tr>
-    {% for item in site_items %}
-        {% if item.size >= 512.1 and item.size <=700 %}
-            <tr>
-                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
-                <td align="right"><span>{{ item.size }}</span></td>
-            </tr>
-        {% endif %}
-    {% endfor %}
-
-    <tr><td><br></td><td><br></td></tr>
-    <tr class="size-section"><td id="1000"><i>Just Under</i> 1MB</td><td></td></tr>
-    {% for item in site_items %}
-        {% if item.size >= 700.1 and item.size <=1000 %}
-            <tr>
-                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
-                <td align="right"><span>{{ item.size }}</span></td>
-            </tr>
-        {% endif %}
-    {% endfor %}
+        {% endfor %}
         </tbody>
         </table>
 </main>
 <br>
 <hr>
+<script>
+    const container = document.querySelector('#container');
+    const children = [...container.children];
+    children.forEach(child => child.remove());
+    const randomChildren = children.map((child) => ({ child, rand: Math.random() }));
+    randomChildren.sort((a, b) => b.rand - a.rand);
+    randomChildren.forEach(randomObj => container.appendChild(randomObj.child));
+</script>

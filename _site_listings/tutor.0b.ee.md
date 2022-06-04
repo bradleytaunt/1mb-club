@@ -1,4 +1,4 @@
 ---
 pageurl: tutor.0b.ee
-size: 2.3
+size: 1.8
 ---

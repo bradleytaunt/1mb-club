@@ -1,4 +1,4 @@
-body{margin:0 auto;max-width:75ch;padding:10px;}
+body{font-family:sans-serif;margin:0 auto;max-width:75ch;padding:10px;}
 pre{overflow:auto;}
 table{border-collapse:collapse;width:100%;}
 table tbody tr:nth-of-type(even) td{background:#f9f9f9;}
