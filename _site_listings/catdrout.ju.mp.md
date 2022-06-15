@@ -1,4 +1,4 @@
 ---
 pageurl: catdrout.ju.mp
-size: 127.3 KB
+size: 127.3
 ---

@@ -1,8 +1,150 @@
-body{font-family:sans-serif;margin:0 auto;max-width:75ch;padding:10px;}
-pre{overflow:auto;}
-table{border-collapse:collapse;width:100%;}
-table tbody tr:nth-of-type(even) td{background:#f9f9f9;}
-table tbody tr.size-section td{background:#191919;color:white;}
-@media (prefers-color-scheme: dark) {
-    body{background:#191919;filter:invert(1);}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #D8DBE2;
+    margin: 0 8px;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    border: 2px solid #212738;
+    font-family: 'Verdana', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 8px auto;
+    max-width: 850px;
+    outline: 1px solid #bbb;
+    padding: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    background: #8E9CB2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    background: #CD214F;
+    line-height: 1;
+    margin: 0;
+}
+
+h2.post {
+    background: none;
+    border: 0;
+    color: black;
+    font-size: 2em;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: left;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+blockquote {
+    background: #fcfcff;
+    border: solid #cce;
+    border-width: 1px 1em;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+blockquote cite {
+    display: block;
+    margin: 0 0 10px;
+}
+
+pre {
+    background-color: #F5F6F7;
+    border-color: #000000;
+    border-style: dotted;
+    border-width: 1px;
+    font-style: italic;
+    overflow: auto;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table tbody tr {
+    border: 1px solid lightgrey;
+}
+table tr td {
+    padding: 8px;
+}
+table tr:nth-of-type(odd) td {
+    background: #f9f9f9;
+}
+
+nav ul {
+    margin: 1em 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin:  0 10px;
+}
+
+.fame {
+    background: lightyellow;
+    border: 1px solid darkgoldenrod;
+    text-align: center;
+}
+.fame h2 {
+    background: lightgoldenrodyellow;
+    border: 0;
+    border-bottom: 1px solid;
+    border-color: darkgoldenrod;
+    color: darkgoldenrod;
+    margin: 0;
+}
+.fame p {
+    padding: 0 1em;
+}
+.fame p span,
+.thanks p span {
+    display: inline-block;
+    position: relative;
+}
+.fame p span:after,
+.thanks p span:after {
+    content: ", ";
+    display: inline-block;
+    position: relative;
+}
+.fame p span:last-of-type:after,
+.thanks p span:last-of-type:after {
+    display: none;
+}
+
+.thanks {
+    background: #F2FFF2;
+    border: 1px solid green;
+    padding: 8px;
+}
+
+.thanks h3 {
+    background: palegreen;
+    border-color:  green;
+    color: black;
+    margin-top: 0;
+    text-align: left;
+}
+
+.footnotes {
+    font-size: 90%;
+}
+
+footer p {
+    margin-bottom: 0;
 }

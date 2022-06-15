@@ -6,10 +6,16 @@ url: "https://1mb.club" # the base hostname & protocol for your site, e.g. http:
 
 host: 0.0.0.0
 
+author:
+  name: Bradley Taunt
+  email: hello@tdarb.org
+
 # Collections
 collections:
   site_listings:
     output: false
+
+permalink: /blog/:title
 
 exclude:
   - generate.sh

@@ -1,46 +1,29 @@
 ---
 layout: default
-title: 1MB Club
+title: A collection of websites weighing in less than 1MB
 summary: Listing all websites under 1MB in total size
 ---
 
 <header>
-    <h1>1MB Club</h1>
-    <p>The internet has become a <em>bloated mess</em>. Massive JavaScript libraries. Countless client-side queries. Overly complex frontend frameworks.</p>
-    <p>These things are a <strong>cancerous growth</strong> on the web.</p>
-    <p>But we can make a difference - no matter how small it may seem. <em>1MB Club</em> is a growing collection of performance-focused web pages found across the internet.</p>
-    <p><strong>The two rules for a web page to qualify as a member:</strong></p>
-    <ol>
-        <li>Total website size (not <i>just</i> transferred data) must not exceed 1 megabyte</li>
-        <li>The website must contain a reasonable amount of content / usefulness in order to be added - no sites with a simple line of text, etc.</li>
-    </ol>
-    <hr>
-    <details>
-        <summary><strong>How can I submit a website?</strong></summary>
-        <p>Please follow the instructions on the main <a target="_blank" href="https://github.com/bradleytaunt/1mb-club">Github project repo</a>.</p>
-    </details>
-    <hr>
-    <details>
-        <summary><strong>How can I help support this project?</strong></summary>
-        <p>If you are feeling generous, I would greatly appreciate <a href="https://en.liberapay.com/tdarb/">any donations to help support the site.</a></p>
-    </details>
-    <hr>
-    <details>
-        <summary><strong>Why is the members list randomized?</strong></summary>
-        <p>This gives visitors the ability to see interesting and new websites everytime they visit! It also prevents odd instances of "racing to the top".</p>
-    </details>
-    <hr>
-    <details>
-        <summary><strong>Looking for a <i>more extreme</i> club?</strong></summary>
-        <p>Take a look and checkout the even more exclusive membership collection at the <a href="https://xhtml.club">XHTML Club</a>.</p>
-    </details>
-    <hr>
-    <br>
+    <p align="center"><strong>1MB Club</strong> is a growing collection of performance-focused web pages weighing less than 1 megabyte.</p>
 </header>
 
 <main>
-    <h2>Official Members</h2>
-    <hr><br>
+    <div class="fame">
+        <h2 id="hof">🏆 Hall of Fame 🏆</h2>
+        <p><strong>Supporters of a leaner web!</strong></p>
+        {% assign websites = site.site_listings | sort: 'size' %}
+        <p>
+            {% for item in websites %}
+                {% if item.hof == true %}
+                <span><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></span>
+                {% endif %}
+            {% endfor %}
+        </p>
+        <p>These 1MB Club members donated to this project and are now immortalized into the "Hall of Fame"</p>
+        <p><strong>Looking to join the Hall of Fame?</strong><br><a target="_blank" href="https://www.buymeacoffee.com/WQTMtn7ir">Become a supporter today &rarr;</a></p>
+    </div>
+    <h2 id="members">Official Members</h2>
     <table>
         <thead align="left">
             <tr>
@@ -49,7 +32,6 @@ summary: Listing all websites under 1MB in total size
             </tr>
         </thead>
         <tbody id="container">
-        {% assign websites = site.site_listings %}
         {% for item in websites %}
             <tr>
                 <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
@@ -57,15 +39,5 @@ summary: Listing all websites under 1MB in total size
             </tr>
         {% endfor %}
         </tbody>
-        </table>
+    </table>
 </main>
-<br>
-<hr>
-<script>
-    const container = document.querySelector('#container');
-    const children = [...container.children];
-    children.forEach(child => child.remove());
-    const randomChildren = children.map((child) => ({ child, rand: Math.random() }));
-    randomChildren.sort((a, b) => b.rand - a.rand);
-    randomChildren.forEach(randomObj => container.appendChild(randomObj.child));
-</script>
