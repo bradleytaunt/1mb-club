@@ -28,7 +28,7 @@ You *could* download one of the many native apps from the Mac App Store to do th
 
 2. Select `Quick Option` from the first prompt
 
-3. Set "Workflow recieves current" to `image files`
+3. Set "Workflow receives current" to `image files`
 
 4. Set the label "in" to `Finder`
 
