@@ -12,7 +12,7 @@ This just makes more sense since most web tutorials and experiments require live
 
 ## Visual Inspiration
 
-Some readers might already recognize the design influenced used for this update: the Apache2 Ubuntu Default Page. It's a small piece of nostalgia since I so frequently saw that page in my earlier days of web development. It just feels like a simpler time of the internet.
+Some readers might already recognize the design influence used for this update: the Apache2 Ubuntu Default Page. It's a small piece of nostalgia since I so frequently saw that page in my earlier days of web development. It just feels like a simpler time of the internet.
 
 I've even uploaded a static version for comparison here: [https://apache-index.netlify.app](https://apache-index.netlify.app/)
 
