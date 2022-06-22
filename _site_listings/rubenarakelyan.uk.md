@@ -1,4 +1,4 @@
 ---
-pageurl: www.rubenarakelyan.uk
+pageurl: rubenarakelyan.uk
 size: 58.9
 ---
