@@ -12,9 +12,10 @@ summary: Listing all websites under 1MB in total size
     <div class="fame">
         <h2 id="hof">🏆 Hall of Fame 🏆</h2>
         <p><strong>Supporters of a leaner web!</strong></p>
+        {% assign famers = site.site_listings %}
         {% assign websites = site.site_listings | sort: 'size' %}
         <p>
-            {% for item in websites %}
+            {% for item in famers %}
                 {% if item.hof == true %}
                 <span><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></span>
                 {% endif %}
