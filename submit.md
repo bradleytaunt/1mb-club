@@ -1,7 +1,7 @@
 ---
 title: How to Submit
 layout: page
-permalink: "/submit"
+permalink: "submit/"
 ---
 
 ## Review & Accepting Submissions

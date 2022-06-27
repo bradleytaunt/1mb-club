@@ -1,7 +1,7 @@
 ---
 title: About 1MB Club
 layout: page
-permalink: "/about"
+permalink: "about/"
 ---
 
 ## About 1MB Club
