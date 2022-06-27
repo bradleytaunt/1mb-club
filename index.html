@@ -25,6 +25,9 @@ summary: Listing all websites under 1MB in total size
         <p><strong>Looking to join the Hall of Fame?</strong><br><a target="_blank" href="https://www.buymeacoffee.com/WQTMtn7ir">Become a supporter today &rarr;</a></p>
     </div>
     <h2 id="members">Official Members</h2>
+    <img class="http-badge" src="/public/http-badge.svg" alt="HTTP badge">
+    <p>&nbsp;&nbsp;Items marked with this <i>clickable</i> badge support out-of-date browsers via HTTP (<a href="/blog/https-redirects">Why?</a>)</p>
+    <hr>
     <table>
         <thead align="left">
             <tr>
@@ -35,7 +38,14 @@ summary: Listing all websites under 1MB in total size
         <tbody id="container">
         {% for item in websites %}
             <tr>
-                <td><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></td>
+                <td>
+                    {% if item.http == true %}
+                        <a target="_blank" href="http://{{ item.pageurl }}">
+                            <img class="http-badge" src="/public/http-badge.svg" alt="HTTP badge">
+                        </a>&nbsp;
+                    {% endif %}
+                    <a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+                </td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
         {% endfor %}

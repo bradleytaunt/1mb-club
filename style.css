@@ -70,8 +70,20 @@ pre {
     padding: 8px;
 }
 
+.http-badge {
+    float: left;
+    width: 45px;
+}
+
+.post-time {
+    color: grey;
+    display: block;
+    margin:  0.5em 0;
+}
+
 table {
     border-collapse: collapse;
+    text-align: left;
     width: 100%;
 }
 table tbody tr {

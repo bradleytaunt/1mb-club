@@ -1,5 +1,6 @@
 .jekyll-cache
 _site
+deploys
 Gemfile.lock
 .DS_Store
 .bundle

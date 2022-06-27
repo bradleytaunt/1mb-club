@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h2 class="post">{{ page.title }}</h2>
-<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%a, %d %b %Y" }}</time>
+<time class="post-time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%a, %d %b %Y" }}</time>
 {{ content }}
 
 <div class="thanks">
