@@ -1,10 +1,7 @@
 title: 1MB Club
-description: >- # this means to ignore newlines until "baseurl:"
-  An exclusive membership for web pages weighing less than 1 megabyte.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://1mb.club" # the base hostname & protocol for your site, e.g. http://example.com
-
-host: 0.0.0.0
+description: An exclusive membership for web pages weighing less than 1 megabyte.
+baseurl: '' # the subpath of your site, e.g. /blog
+url: https://1mb.club # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
   name: Bradley Taunt
