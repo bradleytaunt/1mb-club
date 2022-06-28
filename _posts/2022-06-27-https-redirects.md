@@ -61,6 +61,6 @@ You can freely view this website on both HTTPS and HTTP. All websites added will
 
 ---
 
-That's about all I have to say about HTTPS redirects for now. I'm sure this post will piss off quite a few people but that's fine. People have separate preferences when it comes to the web. My persona opinion is that we all jumped aboard the "secure everything" train a little too hastily. By doing so, your website indirectly excludes a great deal of internet users.
+That's about all I have to say about HTTPS redirects for now. I'm sure this post will piss off quite a few people but that's fine. People have separate preferences when it comes to the web. My personal opinion is that we all jumped aboard the "secure everything" train a little too hastily. By doing so, your website indirectly excludes a great deal of internet users.
 
 Just something to think about.
