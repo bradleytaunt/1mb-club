@@ -1,4 +1,4 @@
 ---
 pageurl: jasonthai.me
-size: 8.28
+size: 8.3
 ---
