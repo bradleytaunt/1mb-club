@@ -1,4 +1,4 @@
 ---
 pageurl: aneacsu.com
-size: 321.5
+size: 96.4
 ---
