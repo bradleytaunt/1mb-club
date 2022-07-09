@@ -48,6 +48,14 @@ img {
     max-width: 100%;
 }
 
+figure {
+    margin: 2em 0;
+    text-align: center;
+}
+figcaption {
+    color: grey;
+}
+
 blockquote {
     background: #fcfcff;
     border: solid #cce;
