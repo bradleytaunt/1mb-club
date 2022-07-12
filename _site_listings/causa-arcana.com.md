@@ -1,4 +1,4 @@
 ---
 pageurl: causa-arcana.com
-size: 995.0
+size: 887.4
 ---
