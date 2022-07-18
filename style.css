@@ -104,6 +104,30 @@ table tr:nth-of-type(odd) td {
     background: #f9f9f9;
 }
 
+table.members {
+    counter-reset: rowNumber;
+    position: relative;
+}
+table.members tbody tr {
+    counter-increment: rowNumber;
+    position: relative;
+}
+table tbody tr td:first-child::before {
+    border-bottom: 1px solid #8E9CB2;
+    color: #8E9CB2;
+    content: counter(rowNumber);
+    display: inline-block;
+    font-family: monospace;
+    left: -58px;
+    margin-right: 0.8em;
+    min-width: 2.5em;
+    opacity:  0.7;
+    padding: 2px 8px 6px 0;
+    position:  absolute;
+    text-align: right;
+    z-index: -2;
+}
+
 nav ul {
     margin: 1em 0;
     padding: 0;
@@ -118,6 +142,7 @@ nav ul li {
 .fame {
     background: lightyellow;
     border: 1px solid darkgoldenrod;
+    margin: 1em 0;
     text-align: center;
 }
 .fame h2 {
@@ -167,4 +192,10 @@ nav ul li {
 
 footer p {
     margin-bottom: 0;
+}
+
+@media(max-width: 935px) {
+    table tbody tr td:first-child::before {
+        display: none;
+    }
 }
