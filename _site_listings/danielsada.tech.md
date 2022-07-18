@@ -1,4 +1,5 @@
 ---
 pageurl: danielsada.tech
-size: 200.9
+size: 163.9
+hof: true
 ---
