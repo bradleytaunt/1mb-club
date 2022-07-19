@@ -1,4 +1,4 @@
 ---
 pageurl: julia.school
-size: 4.8
+size: 6.9
 ---
