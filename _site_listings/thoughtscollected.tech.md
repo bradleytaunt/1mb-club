@@ -1,4 +1,4 @@
 ---
 pageurl: thoughtscollected.tech
-size: 4.7Kb
+size: 4.7
 ---
