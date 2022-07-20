@@ -21,7 +21,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    background: #8E9CB2;
+    background: #516C95;
     color: white;
     text-align: center;
     padding: 10px;
@@ -84,7 +84,7 @@ pre {
 }
 
 .post-time {
-    color: grey;
+    color: #24272D;
     display: block;
     margin:  0.5em 0;
 }
@@ -113,8 +113,8 @@ table.members tbody tr {
     position: relative;
 }
 table tbody tr td:first-child::before {
-    border-bottom: 1px solid #8E9CB2;
-    color: #8E9CB2;
+    border-bottom: 1px solid #24272D;
+    color: #24272D;
     content: counter(rowNumber);
     display: inline-block;
     font-family: monospace;
