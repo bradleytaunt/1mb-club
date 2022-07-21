@@ -1,6 +1,6 @@
 ---
 pageurl: xslendi.xyz
-size: 5.2
+size: 3.9
 hof: true
 http: true
 ---
