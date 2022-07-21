@@ -5,3 +5,9 @@
     Feel free to reach out via <a rel="me" href="https://fosstodon.org/@tdarb">Mastodon</a><br>
     Latest sites via <a href="/atom.xml">atom.xml</a> // Latest articles via <a href="/posts.xml">posts.xml</a></p>
 </footer>
+<script>
+function rand() {
+a=Array.from(document.getElementsByTagName('td')).map(x => x.firstElementChild).filter(x => x.localName == 'a');
+a[Math.floor(Math.random()*a.length)].click()
+}
+</script>

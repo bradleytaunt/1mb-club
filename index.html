@@ -5,12 +5,15 @@ summary: Listing all websites under 1MB in total size
 ---
 
 <header>
-    <p align="center"><strong>1MB Club</strong> is a growing collection of performance-focused web pages weighing less than 1 megabyte.</p>
+    <p align="center" style="margin-bottom:0;"><strong>1MB Club</strong> is a growing collection of performance-focused web pages weighing less than 1 megabyte.</p>
 </header>
 
 <main>
     {% assign famers = site.site_listings %}
     {% assign websites = site.site_listings | sort: 'size' %}
+    <center>
+        <a href="#" onclick="rand()">I'm feeling lucky</a>
+    </center>
     <h2 id="members">Official Members</h2>
     <img class="http-badge" src="/public/http-badge.svg" alt="HTTP badge">
     <p>&nbsp;&nbsp;Items marked with this <i>clickable</i> badge support out-of-date browsers via HTTP (<a href="/blog/https-redirects">Why?</a>)</p>
