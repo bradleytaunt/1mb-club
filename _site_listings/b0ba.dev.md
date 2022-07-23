@@ -1,5 +1,5 @@
 ---
 pageurl: b0ba.dev
-size: 291.9
+size: 79.6
 hof: true
 ---
