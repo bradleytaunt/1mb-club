@@ -15,8 +15,10 @@ If you do donate, [be sure to let me know](mailto:hello@tdarb.org) your membersh
 
 ### Crypto Donations
 
-- Monero ([Link to QR code](/public/images/monero-qr.png))
+- Monero
 
 ```
 4ArUFuSxHZmLZg3iTPJuf74AbxpGHc5m9VxAQxVNVWhT13cZQSfLFyyabNpeAdfX68VgXtkNCDJ3XXTbwG5y7btR4sjhMYL
 ```
+
+<img src="/public/images/monero-qr.jpeg" alt="Monero QR Code">
