@@ -17,3 +17,6 @@ permalink: /blog/:title/
 exclude:
   - generate.sh
   - README.md
+
+include:
+  - netlify.toml
