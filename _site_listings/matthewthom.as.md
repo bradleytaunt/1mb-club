@@ -1,4 +1,4 @@
 ---
-pageurl: www.matthewthom.as
+pageurl: matthewthom.as
 size: 60.6
 ---
