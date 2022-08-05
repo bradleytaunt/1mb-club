@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+    {% include footer.html %}
+    <script>
+        /**
+         * This looks for elements with the 'site' class which in this case are all of the
+         * anchor links for the sites. This could certainly be made more robust with
+         * some sanity checks, but should work in this context.
+         * This was stolen from the 512kb.club project ;P
+        */
+        function randomSite() {
+          const sites = document.getElementsByClassName('site')
+
+          if (sites.length > 0) {
+            const choiceIndex = Math.floor(Math.random() * sites.length)
+            window.open(sites[choiceIndex].attributes.href.value, '_blank').focus()
+          }
+        }
+    </script>
+  </body>
+</html>

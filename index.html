@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: homepage
 title: A collection of websites weighing in less than 1MB
 summary: Listing all websites under 1MB in total size
 ---
 
 <header>
     <p align="center"><strong>1MB Club</strong> is a growing collection of performance-focused web pages weighing less than 1 megabyte.</p>
+    <p align="center"><a class="button random" href="#100" onclick="randomSite(); return false;">Visit a Random Site</a></p>
 </header>
 
 <main>
@@ -31,7 +32,7 @@ summary: Listing all websites under 1MB in total size
                             <img class="http-badge" src="/public/http-badge.svg" alt="HTTP badge">
                         </a>&nbsp;
                     {% endif %}
-                    <a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+                    <a class="site" target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
                 </td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
