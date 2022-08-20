@@ -1,4 +1,4 @@
 ---
 pageurl: bortox.it
-size: 182.0
+size: 172.0
 ---
