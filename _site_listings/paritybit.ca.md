@@ -1,4 +1,4 @@
 ---
 pageurl: paritybit.ca
-size: 11.8
+size: 5.1
 ---
