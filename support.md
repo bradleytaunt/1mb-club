@@ -18,7 +18,5 @@ If you do donate, [be sure to let me know](mailto:hello@tdarb.org) your membersh
 - Monero
 
 ```
-4ArUFuSxHZmLZg3iTPJuf74AbxpGHc5m9VxAQxVNVWhT13cZQSfLFyyabNpeAdfX68VgXtkNCDJ3XXTbwG5y7btR4sjhMYL
+84aiGX73gVrGhQTQiCCR8DHr6Rp8Mat3cihWKDUBh4WRahFUKzKj2stSpRryWpdQbkH6GX2JEjDhKQ8SiyfJKPHY7ku1aMC
 ```
-
-<img src="/public/images/monero-qr.jpeg" alt="Monero QR Code">
