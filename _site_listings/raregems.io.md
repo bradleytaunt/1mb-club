@@ -1,4 +1,4 @@
 ---
 pageurl: raregems.io
-size: 410.19
+size: 150
 ---
