@@ -94,14 +94,11 @@ table {
     text-align: left;
     width: 100%;
 }
-table tbody tr {
-    border: 1px solid lightgrey;
-}
 table tr td {
     padding: 8px;
 }
 table tr:nth-of-type(odd) td {
-    background: #f9f9f9;
+    background: whitesmoke;
 }
 
 table.members {
@@ -197,5 +194,22 @@ footer p {
 @media(max-width: 935px) {
     table tbody tr td:first-child::before {
         display: none;
+    }
+}
+
+@media(max-width: 800px) {
+    main > .http-badge:nth-of-type(1) {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    main > .http-badge:nth-of-type(1) + p {
+        text-align: center;
+    }
+    table tr td:first-child {
+        max-width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 }
