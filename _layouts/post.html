@@ -2,4 +2,20 @@
 layout: default
 ---
 
+<h2 class="post">{{ page.title }}</h2>
+<time class="post-time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%a, %d %b %Y" }}</time>
 {{ content }}
+
+<div class="thanks">
+    <h3>Special Thanks</h3>
+    <p>I'm extremely grateful for the support from the "Hall of Fame" supporters:<br>
+    {% assign websites = site.site_listings %}
+        {% for item in websites %}
+            {% if item.hof == true %}
+            <span><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></span>
+            {% endif %}
+        {% endfor %}
+    </p>
+    <p>If you too would like to support this project and help fund more articles like this one:<br><a target="_blank" href="https://www.buymeacoffee.com/WQTMtn7ir">Become a supporter today →</a></p>
+</div>
+

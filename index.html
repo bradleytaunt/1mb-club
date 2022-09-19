@@ -1,105 +1,55 @@
 ---
-layout: default
-title: 1MB Club
-summary: Listing all websites under 1MB in total size
+layout: homepage
+title: A collection of web pages weighing in less than 1MB
+summary: Listing all web pages under 1MB in total size
 ---
 
 <header>
-    <h1>1MB Club</h1>
-    <p>The internet has become a <em>bloated mess</em>. Massive javascript libraries. Countless client-side queries. Overly complex frontend frameworks.</p>
-    <p>These things are a <strong>cancerous growth</strong> on the web.</p>
-    <p>But we can make a difference - no matter how small it may seem. <em>1MB Club</em> is a growing collection of performance-focused web pages found across the internet. The one and only rule for a web page to qualify as a member:</p>
-    <ol>
-        <li>Total website size (not <i>just</i> transfered data) must not exceed 1 megabyte</li>
-    </ol>
-    <blockquote>
-        <h3>How to Submit</h3>
-        <p>Please follow the instructions on the main <a target="_blank" href="https://github.com/bradleytaunt/1mb-club">Github project repo</a>.</p>
-    </blockquote>
-    <h3>Support</h3>
-    <p>If you are feeling generous, I would greatly appreciate any donations to help support the site.</p>
-    <ol>
-        <li>BTC: <strong><code>3JGsvjgxamQHi4VCALER4rXvnvzdWUaQGg</code></strong></li>
-        <li>Or simply <a href="https://www.buymeacoffee.com/WQTMtn7ir">buy me a coffee</a></li>
-    </ol>
-    <h3>Looking for a more <em>extreme</em> club?</h3>
-    <p>Take a look and checkout the even more exclusive membership collection at the <a href="https://xhtml.club">XHTML Club</a>.</p>
-    <br><hr><br>
-    <span>Jump to: &nbsp;</span>
-    <a href="#50">&#60;50KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#100">&#60;100KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#250">&#60;250KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#512">&#60;512KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#700">&#60;700KB</a><span>&nbsp;&nbsp;&middot;&nbsp;</span>
-    <a href="#1000"><em>Just Under</em> 1MB</a>
+    <p align="center"><strong>1MB Club</strong> is a growing collection of performance-focused web pages weighing less than 1 megabyte.</p>
+    <p align="center"><a class="button random" href="#100" onclick="randomSite(); return false;">Visit a Random Site</a></p>
 </header>
 
 <main>
-    <ul>
-    {% assign site_items = site.site_listings | sort: 'size' %}
-    <h3 id="50"><50KB</h3>
-    {% for item in site_items %}
-        {% if item.size <= 50 %}
-            <li>
-                <span class="before" style="--data-size:{{ item.size }};"></span>
-                <span class="after">{{ item.size }} KB</span>
-                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
-            </li>
-        {% endif %}
-    {% endfor %}
-
-    <h3 id="100"><100KB</h3>
-    {% for item in site_items %}
-        {% if item.size >= 50 and item.size <=100 %}
-            <li>
-                <span class="before" style="--data-size:{{ item.size }};"></span>
-                <span class="after">{{ item.size }} KB</span>
-                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
-            </li>
-        {% endif %}
-    {% endfor %}
-
-    <h3 id="250"><250KB</h3>
-    {% for item in site_items %}
-        {% if item.size >= 100 and item.size <=250 %}
-            <li>
-                <span class="before" style="--data-size:{{ item.size }};"></span>
-                <span class="after">{{ item.size }} KB</span>
-                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
-            </li>
-        {% endif %}
-    {% endfor %}
-
-    <h3 id="512"><512KB</h3>
-    {% for item in site_items %}
-        {% if item.size >= 250 and item.size <=512 %}
-            <li>
-                <span class="before" style="--data-size:{{ item.size }};"></span>
-                <span class="after">{{ item.size }} KB</span>
-                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
-            </li>
-        {% endif %}
-    {% endfor %}
-
-    <h3 id="700"><700KB</h3>
-    {% for item in site_items %}
-        {% if item.size >= 512 and item.size <=700 %}
-            <li>
-                <span class="before" style="--data-size:{{ item.size }};"></span>
-                <span class="after">{{ item.size }} KB</span>
-                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
-            </li>
-        {% endif %}
-    {% endfor %}
-
-    <h3 id="1000"><em>Just Under</em> 1MB</h3>
-    {% for item in site_items %}
-        {% if item.size >= 700 and item.size <=1000 %}
-            <li>
-                <span class="before" style="--data-size:{{ item.size }};"></span>
-                <span class="after">{{ item.size }} KB</span>
-                <a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
-            </li>
-        {% endif %}
-    {% endfor %}
+    {% assign famers = site.site_listings %}
+    {% assign websites = site.site_listings | sort: 'size' %}
+    <h2 id="members">Official Members</h2>
+    <img class="http-badge" src="/public/http-badge.svg" alt="HTTP badge">
+    <p>&nbsp;&nbsp;Items marked with this <i>clickable</i> badge support out-of-date browsers via HTTP (<a href="/blog/https-redirects">Why?</a>)</p>
+    <hr>
+    <table class="members">
+        <thead align="left">
+            <tr>
+                <th>URL</th>
+                <th align="right">Size (KB)</th>
+            </tr>
+        </thead>
+        <tbody id="container">
+        {% for item in websites %}
+            <tr>
+                <td>
+                    {% if item.http == true %}
+                        <a target="_blank" href="http://{{ item.pageurl }}">
+                            <img class="http-badge" src="/public/http-badge.svg" alt="HTTP badge">
+                        </a>&nbsp;
+                    {% endif %}
+                    <a class="site" target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+                </td>
+                <td align="right"><span>{{ item.size }}</span></td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <div class="fame">
+        <h2 id="hof">🏆 Hall of Fame 🏆</h2>
+        <p><strong>Supporters of a leaner web!</strong></p>
+        <p>
+            {% for item in famers %}
+                {% if item.hof == true %}
+                <span><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></span>
+                {% endif %}
+            {% endfor %}
+        </p>
+        <p>These 1MB Club members donated to this project and are now immortalized into the "Hall of Fame"</p>
+        <p><strong>Looking to join the Hall of Fame?</strong><br><a target="_blank" href="https://www.buymeacoffee.com/WQTMtn7ir">Become a supporter today &rarr;</a></p>
+    </div>
 </main>

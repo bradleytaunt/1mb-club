@@ -1,4 +1,4 @@
 ---
 pageurl: healthchecks.io
-size: 600.0
+size: 328.0
 ---

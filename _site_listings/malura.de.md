@@ -1,4 +1,4 @@
 ---
 pageurl: malura.de
-size: 540.7
+size: 39.9
 ---

@@ -19,6 +19,7 @@ layout: null
  <entry>
    <title>{{ item.pageurl }} - {{ item.size }} kb</title>
    <link href="https://{{ item.pageurl }}"/>
+   <id>https://{{ item.pageurl }}</id>
  </entry>
  {% endfor %}
 

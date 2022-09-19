@@ -1,4 +1,4 @@
 ---
 pageurl: torrent.parts
-size: 693.5
+size: 360.8
 ---

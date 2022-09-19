@@ -1,0 +1,2 @@
+RewriteEngine On
+RedirectMatch 301 ^/support https://www.buymeacoffee.com/WQTMtn7ir
