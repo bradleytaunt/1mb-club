@@ -1,4 +1,4 @@
 ---
 pageurl: si3t.ch
-size: 3.2
+size: 2.1
 ---
