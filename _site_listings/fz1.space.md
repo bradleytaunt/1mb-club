@@ -1,4 +1,4 @@
 ---
 pageurl: fz1.space
-size: 3.2
+size: 2.8
 ---
