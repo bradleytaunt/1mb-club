@@ -78,6 +78,14 @@ pre {
     padding: 8px;
 }
 
+p code, li code {
+    background: lightgoldenrodyellow;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    line-height: 1;
+    padding: 0 4px;
+}
+
 .http-badge {
     float: left;
     width: 45px;
