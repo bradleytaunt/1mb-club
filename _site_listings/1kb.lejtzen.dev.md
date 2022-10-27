@@ -1,4 +1,4 @@
 ---
 pageurl: 1kb.lejtzen.dev
-size: 0.9
+size: 2.1
 ---
