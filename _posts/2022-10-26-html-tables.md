@@ -115,6 +115,6 @@ You can see it in action below. Don't forget - you could always make your `tfoot
 
 ## Contribute
 
-If you would like to add any of your own table "hacks" or if you see any glaring mistakes, please reach out to me directly via [my public inbox](https://lists.sr.ht/~tdarb/public-inbox). Thanks!
+If you would like to add any of your own table "hacks" or if you see any glaring mistakes, please reach out to me directly via [email](mailto:bt@btxx.org). Thanks!
 
 <br>
