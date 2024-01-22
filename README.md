@@ -1,5 +1,7 @@
 # 1MB Club
 
+Send patches: 1mb-club@patches.btxx.org
+
 An exclusive members-only club for web pages weighing less than 1 megabyte
 
 Live collection: <a target="_blank" href="https://1mb.club">1mb.club</a>
