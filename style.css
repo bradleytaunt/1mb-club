@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #D8DBE2;
+    margin: 0 8px;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    border: 2px solid #212738;
+    font-family: 'Verdana', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 8px auto;
+    max-width: 850px;
+    outline: 1px solid #bbb;
+    padding: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    background: #516C95;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    background: #CD214F;
+    line-height: 1;
+    margin: 0;
+}
+
+h2.post {
+    background: none;
+    border: 0;
+    color: black;
+    font-size: 2em;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: left;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+figure {
+    margin: 2em 0;
+    text-align: center;
+}
+figcaption {
+    color: grey;
+}
+
+blockquote {
+    background: #fcfcff;
+    border: solid #cce;
+    border-width: 1px 1em;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+blockquote cite {
+    display: block;
+    margin: 0 0 10px;
+}
+
+pre {
+    background-color: #F5F6F7;
+    border-color: #000000;
+    border-style: dotted;
+    border-width: 1px;
+    font-style: italic;
+    overflow: auto;
+    padding: 8px;
+}
+
+p code, li code {
+    background: lightgoldenrodyellow;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    line-height: 1;
+    padding: 0 4px;
+}
+
+.http-badge {
+    float: left;
+    width: 45px;
+}
+
+.post-time {
+    color: #24272D;
+    display: block;
+    margin:  0.5em 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+table tr td {
+    padding: 8px;
+}
+table tr:nth-of-type(odd) td {
+    background: whitesmoke;
+}
+
+table.members {
+    counter-reset: rowNumber;
+    position: relative;
+}
+table.members tbody tr {
+    counter-increment: rowNumber;
+    position: relative;
+}
+table tbody tr td:first-child::before {
+    border-bottom: 1px solid #24272D;
+    color: #24272D;
+    content: counter(rowNumber);
+    display: inline-block;
+    font-family: monospace;
+    left: -58px;
+    margin-right: 0.8em;
+    min-width: 2.5em;
+    opacity:  0.7;
+    padding: 2px 8px 6px 0;
+    position:  absolute;
+    text-align: right;
+    z-index: -2;
+}
+
+nav ul {
+    margin: 1em 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin:  0 10px;
+}
+
+.fame {
+    background: lightyellow;
+    border: 1px solid darkgoldenrod;
+    margin: 1em 0;
+    text-align: center;
+}
+.fame h2 {
+    background: lightgoldenrodyellow;
+    border: 0;
+    border-bottom: 1px solid;
+    border-color: darkgoldenrod;
+    color: darkgoldenrod;
+    margin: 0;
+}
+.fame p {
+    padding: 0 1em;
+}
+.fame p span,
+.thanks p span {
+    display: inline-block;
+    position: relative;
+}
+.fame p span:after,
+.thanks p span:after {
+    content: ", ";
+    display: inline-block;
+    position: relative;
+}
+.fame p span:last-of-type:after,
+.thanks p span:last-of-type:after {
+    display: none;
+}
+
+.thanks {
+    background: #F2FFF2;
+    border: 1px solid green;
+    padding: 8px;
+}
+
+.thanks h3 {
+    background: palegreen;
+    border-color:  green;
+    color: black;
+    margin-top: 0;
+    text-align: left;
+}
+
+.footnotes {
+    font-size: 90%;
+}
+
+footer {
+    text-align: center;
+}
+footer p {
+    margin-bottom: 0;
+}
+
+@media(max-width: 935px) {
+    table tbody tr td:first-child::before {
+        display: none;
+    }
+}
+
+@media(max-width: 800px) {
+    main > .http-badge:nth-of-type(1) {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    main > .http-badge:nth-of-type(1) + p {
+        text-align: center;
+    }
+    table tr td:first-child {
+        max-width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
