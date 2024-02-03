@@ -49,5 +49,6 @@ Listed below are the kind folks who have donated me pizzas.
 |Willem L. Middelkoop|$9 (large pizza)|
 |Ivan S|$15 (large pizza + toppings)|
 |adast.dk|$15 (large pizza + toppings)|
+|Jens Steger|$9 (large pizza)|
 
 
