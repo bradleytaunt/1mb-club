@@ -50,5 +50,6 @@ Listed below are the kind folks who have donated me pizzas.
 |Ivan S|$15 (large pizza + toppings)|
 |adast.dk|$15 (large pizza + toppings)|
 |Jens Steger|$9 (large pizza)|
+|Alexey|$11 (large pizza)|
 
 
