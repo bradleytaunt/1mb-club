@@ -6,20 +6,22 @@ permalink: "submit/"
 
 ## Review & Accepting Submissions
 
-**All websites submitted will be manually reviewed for honesty and quality assurance.**
+**All web pages submitted will be manually reviewed for honesty and quality assurance.**
 
-1MB Club has the final say whether a website is added to the official listing or not. Spam, low-quality pages, or shady SEO gimmicks will be ignored. If your website is not accepted, please do not take it personally. Let's refrain from being rude to each other!
+1MB Club has the final say whether a web page is added to the official listing or not. Spam, low-quality pages, or shady SEO gimmicks will be ignored. If your web page is not accepted, please do not take it personally. Let's refrain from being rude to each other!
 
 **The two rules for a web page to qualify as a member:**
 
 <ol>
-    <li>Total website size (not <i>just</i> transferred data) must not exceed 1 megabyte</li>
-    <li>The website must contain a reasonable amount of content / usefulness in order to be added - no sites with a simple line of text, etc.</li>
+    <li>Total web page size (not <i>just</i> transferred data) must not exceed 1 megabyte</li>
+    <li>The web page must contain a reasonable amount of content / usefulness in order to be added - no sites with a simple line of text, etc.</li>
 </ol>
 
 ## How to Submit
 
-> Note: All websites are manually tested through Firefox's network monitor for consistency.
+> Note: All web pages are manually tested through Firefox's network monitor for consistency. The **total** web page will be taken into account, not just the "transferred".
+
+![Firefox network tab showing the full web page size of 1MB Club](/public/images/submit-screenshot.png)
 
 I'm trying my best to make the site submission process as painless as possible. The goal is to avoid spam while trying not to exclude as many "non-techies" as possible.
 
@@ -28,12 +30,11 @@ There are currently two options to submit:
 1. Patching via the [email](mailto:1mb-club@patches.btxx.org)
 2. Submitting a ticket (see below)
 
-
 ### Option 1: Patching
 
-Option #1 is the preferred preference. Your website will be reviewed much faster and editing any minor mistakes is a more seamless process.
+Option #1 is the preferred preference. Your web page will be reviewed much faster and editing any minor mistakes is a more seamless process.
 
-The format of your newly added website should be as follows:
+The format of your newly added web page should be as follows:
 
 - Name the file as `yourdomain.com.md` (make note of the Markdown extension!)
 - The inner content should be set like the format below (page size set to a single decimal place):
@@ -61,5 +62,5 @@ Thank you.
 
 ## Bugs
 
-If you come across any bugs or incorrect website listings on this website, please [patch or submit feedback](mailto:1mb-club@patches.btxx.org).
+If you come across any bugs or incorrect web page listings on this site, please [patch or submit feedback](mailto:1mb-club@patches.btxx.org).
 
