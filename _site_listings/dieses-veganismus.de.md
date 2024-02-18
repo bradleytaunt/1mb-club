@@ -1,5 +1,5 @@
 ---
 pageurl: dieses-veganismus.de
-size: 535.2
+size: 291.9
 hof: true
 ---
