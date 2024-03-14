@@ -51,5 +51,6 @@ Listed below are the kind folks who have donated me pizzas.
 |adast.dk|$15 (large pizza + toppings)|
 |Jens Steger|$9 (large pizza)|
 |Alexey|$11 (large pizza)|
+|Justin Wong|$3 (pizza slice)|
 
 
