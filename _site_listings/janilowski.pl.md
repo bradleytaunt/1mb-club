@@ -1,4 +1,4 @@
 ---
-pageurl: https://janilowski.pl/
+pageurl: janilowski.pl
 size: 91.3
 ---
