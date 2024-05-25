@@ -27,8 +27,8 @@ I'm trying my best to make the site submission process as painless as possible. 
 
 There are currently two options to submit:
 
-1. Patching via the [email](mailto:1mb-club@patches.btxx.org)
-2. Submitting a ticket (see below)
+1. Patching via the [mailing list](https://lists.sr.ht/~bt/1mb-club-devel)
+2. Submitting a ticket using the [bug tracker](https://todo.sr.ht/~bt/1mb-club-bugs)
 
 ### Option 1: Patching
 
@@ -56,11 +56,11 @@ If you would prefer to use a ticket-based system instead, then keep reading.
 
 Option #2 is less ideal but still okay. Your submission will take longer to review and any changes required might become more of a pain to fix.
 
-[Submit a standard request email &rarr;](mailto:1mb-club@patches.btxx.org). Simply mention the URL you wish to add in the email body and it will be manually reviewed.
+[Submit a standard request email &rarr;](https://lists.sr.ht/~bt/1mb-club-devel). Simply mention the URL you wish to add in the email body and it will be manually reviewed.
 
 Thank you.
 
 ## Bugs
 
-If you come across any bugs or incorrect web page listings on this site, please [patch or submit feedback](mailto:1mb-club@patches.btxx.org).
+If you come across any bugs or incorrect web page listings on this site, please [patch or submit feedback](https://todo.sr.ht/~bt/1mb-club-bugs).
 
