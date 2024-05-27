@@ -17,8 +17,8 @@ But we can make a difference - no matter how small it may seem. <em>1MB Club</em
 
 ## Who Runs 1MB Club?
 
-This project is a one-man operation. My name is [Bradley Taunt](https://bt.ht) and I'm a designer/developer with over 12 years experience building on the web. I'm passionate about performance (obviously), accessibility and improving user experience across the internet.
+This project is a one-man operation. My name is [Bradley Taunt](https://btxx.org) and I'm a designer/developer with over 12 years experience building on the web. I'm passionate about performance (obviously), accessibility and improving user experience across the internet.
 
 If you would like to ask a question or simply say hello, feel free to shoot me an e-mail:
 
-brad [at] bt {dot} ht
+bt [at] btxx {dot} org
