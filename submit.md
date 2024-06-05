@@ -27,10 +27,10 @@ I'm trying my best to make the site submission process as painless as possible. 
 
 There are currently two options to submit:
 
-1. Patching via the [mailing list](https://lists.sr.ht/~bt/1mb-club-devel)
-2. Submitting a ticket using the [bug tracker](https://todo.sr.ht/~bt/1mb-club-bugs)
+1. [Open a PR](https://git.disroot.org/bt/1mb-club/pulls)
+2. [Submit a ticket](https://git.disroot.org/bt/1mb-club/issues)
 
-### Option 1: Patching
+### Option 1: Pull Requests
 
 Option #1 is the preferred preference. Your web page will be reviewed much faster and editing any minor mistakes is a more seamless process.
 
@@ -46,21 +46,19 @@ size: 8.2
 ---
 ```
 
-That said, I am fully aware that not everyone is familiar with `git` or submitting patches through email. That's understandable. I would still highly recommend learning more about using `git` through email:
-
-[https://git-send-email.io/](https://git-send-email.io/)
+That said, I am fully aware that not everyone is familiar with `git` or submitting patches through pull requests. That's understandable. I would still highly recommend learning more about using a git workflow!
 
 If you would prefer to use a ticket-based system instead, then keep reading.
 
-### Option 2: Direct Email
+### Option 2: Submit a Ticket
 
 Option #2 is less ideal but still okay. Your submission will take longer to review and any changes required might become more of a pain to fix.
 
-[Submit a standard request email &rarr;](https://lists.sr.ht/~bt/1mb-club-devel). Simply mention the URL you wish to add in the email body and it will be manually reviewed.
+[Submit a ticket &rarr;](https://git.disroot.org/bt/1mb-club/issues). Simply mention the URL you wish to add in the email body and it will be manually reviewed.
 
 Thank you.
 
 ## Bugs
 
-If you come across any bugs or incorrect web page listings on this site, please [patch or submit feedback](https://todo.sr.ht/~bt/1mb-club-bugs).
+If you come across any bugs or incorrect web page listings on this site, please submit a ticket for that as well!
 
