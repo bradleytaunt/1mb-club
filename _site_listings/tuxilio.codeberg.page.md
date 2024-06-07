@@ -1,4 +1,4 @@
 ---
 pageurl: tuxilio.codeberg.page
-size: 16.7
+size: 27.7
 ---
