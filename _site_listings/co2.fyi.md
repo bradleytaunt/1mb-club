@@ -1,4 +1,4 @@
 ---
 pageurl: co2.fyi
-size: 39.57
+size: 39.6
 ---
