@@ -23,9 +23,9 @@ permalink: "submit/"
 
 ![Firefox network tab showing the full web page size of 1MB Club](/public/images/submit-screenshot.png)
 
-### Pull Requests
+### Sending Patches
 
-[Submit a pull request](https://git.disroot.org/bt/1mb-club/pulls) and your web page will be reviewed for quality assurance.
+[Submit a patch](https://lists.sr.ht/~bt/1mb-club-devel) and your web page will be reviewed for quality assurance. If you are not familiar with submitting patches through email, please take a look at: [git-send-email.io/](https://git-send-email.io/).
 
 The format of your newly added web page should be as follows:
 
@@ -41,5 +41,5 @@ size: 8.2
 
 ## Bugs
 
-If you come across any bugs or incorrect web page listings on this site, please [submit a ticket](https://git.disroot.org/bt/1mb-club/issues) for that as well! Please **do not** use tickets to submit websites! Thank you.
+If you come across any bugs or incorrect web page listings on this site, please [submit a ticket](https://todo.sr.ht/~bt/1mb-club-bugs) for that as well! Please **do not** use tickets to submit websites! Thank you.
 
