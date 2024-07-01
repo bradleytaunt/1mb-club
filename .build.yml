@@ -12,8 +12,8 @@ tasks:
     sudo gem install bundler
 - build: |
     cd 1mb-club
-    bundle install
-    bundle exec jekyll build
+    sudo bundle install
+    sudo bundle exec jekyll build
 - package: |
     cd 1mb-club/_site
     tar -cvz . > ../../site.tar.gz
