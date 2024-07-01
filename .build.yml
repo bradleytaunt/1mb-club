@@ -18,4 +18,4 @@ tasks:
     cd 1mb-club/_site
     tar -cvz . > ../../site.tar.gz
 - upload: |
-    acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
+    hut pages publish -d 1mb.club site.tar.gz
