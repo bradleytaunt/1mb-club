@@ -1,4 +1,4 @@
-image: debian/stable
+image: alpine/latest
 oauth: pages.sr.ht/PAGES:RW
 packages:
 - ruby-full
@@ -8,6 +8,8 @@ site: 1mb.club
 sources:
 - https://git.sr.ht/~bt/1mb-club
 tasks:
+- install-dependencies: |
+    sudo apk add go hut
 - install-bundler: |
     sudo gem install bundler
 - build: |
