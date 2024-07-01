@@ -1,0 +1,21 @@
+image: debian/stable
+oauth: pages.sr.ht/PAGES:RW
+packages:
+- ruby-full
+- ruby-dev
+environment:
+site: 1mb.club
+sources:
+- https://git.sr.ht/~bt/1mb-club
+tasks:
+- install-bundler: |
+    sudo gem install bundler
+- build: |
+    cd 1mb-club
+    bundle install
+    bundle exec jekyll build
+- package: |
+    cd 1mb-club/_site
+    tar -cvz . > ../../site.tar.gz
+- upload: |
+    acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz

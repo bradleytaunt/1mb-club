@@ -19,3 +19,4 @@ exclude:
   - website-check.rb
   - README.md
   - .ruby-version
+  - .build.yml
