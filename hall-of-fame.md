@@ -53,5 +53,6 @@ Listed below are the kind folks who have donated me pizzas.
 |Alexey|$11 (large pizza)|
 |Justin Wong|$3 (pizza slice)|
 |Nick Sherman|$26 (large pizza + toppings)|
+|Christian Cleberg|$50 (2x large pizza + toppings)|
 
 
