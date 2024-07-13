@@ -1,4 +1,4 @@
 ---
-pageurl: https://www.thorlaksson.com
+pageurl: thorlaksson.com
 size: 185.4
 ---
