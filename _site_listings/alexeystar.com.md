@@ -1,5 +1,5 @@
 ---
 pageurl: alexeystar.com
-size: 7.43
+size: 11.0
 hof: true
 ---
