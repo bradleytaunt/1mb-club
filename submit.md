@@ -25,6 +25,8 @@ permalink: "submit/"
 
 ### Sending Patches
 
+The main project repo can be found [here](https://got.btxx.org/?action=summary&path=1mb.club.git).
+
 [Submit a patch](https://lists.sr.ht/~bt/1mb-club-devel) and your web page will be reviewed for quality assurance. If you are not familiar with submitting patches through email, please take a look at: [git-send-email.io/](https://git-send-email.io/).
 
 The format of your newly added web page should be as follows:
