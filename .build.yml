@@ -12,8 +12,8 @@ tasks:
     sudo gem install bundler
 - build: |
     cd 1mb-club
-    bundle install
-    bundle exec jekyll build
+    sudo bundle install
+    sudo bundle exec jekyll build
 - deploy: |
     cd 1mb-club
     rsync --rsh="ssh -o StrictHostKeyChecking=no -i ~/.ssh/07201d32-1451-4a8f-9bff-ce8b2232c67d" -rzP _site/ bt@1mb.club:/var/www/1mb.club
