@@ -118,7 +118,7 @@ table.members tbody tr {
     counter-increment: rowNumber;
     position: relative;
 }
-table tbody tr td:first-child::before {
+table.members tbody tr td:first-child::before {
     border-bottom: 1px solid #24272D;
     color: #24272D;
     content: counter(rowNumber);
