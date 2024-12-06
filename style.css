@@ -231,9 +231,36 @@ footer p {
         background: black;
     }
     body {
-        filter: invert(0.85);
+        background: #2d2d2d;
+        color: white;
     }
-    img {
-        filter: invert(1);
+    h2.post {
+        color: white;
+    }
+    .post-time {
+        color: #ccc;
+    }
+    p code, li code {
+        color: black;
+    }
+    pre {
+        background: black;
+        border-color: white;
+    }
+    blockquote {
+        background: #1d1d1d;
+    }
+    table tr:nth-of-type(odd) td {
+        background: black;
+    }
+    table.members tbody tr td:first-child::before {
+        border-bottom: 1px solid #ccc;
+        color: #ccc;
+    }
+    .fame {
+        color: black;
+    }
+    .thanks {
+        background: black;
     }
 }
