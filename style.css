@@ -11,6 +11,7 @@ html {
 body {
     background: #fff;
     border: 2px solid #212738;
+    color: black;
     font-family: 'Verdana', sans-serif;
     font-size: 15px;
     line-height: 1.4;
@@ -222,5 +223,17 @@ footer p {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: black;
+    }
+    body {
+        filter: invert(0.85);
+    }
+    img {
+        filter: invert(1);
     }
 }
