@@ -1,5 +1,5 @@
 ---
 pageurl: cmc.pub
-size: 4.2
+size: 7.7
 hof: true
 ---
