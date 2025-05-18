@@ -32,9 +32,9 @@ The main project repo can be found [here](https://git.sr.ht/~bt/1mb-club).
 The format of your newly added web page should be as follows:
 
 - Name the file as `yourdomain.com.md` (make note of the Markdown extension!)
-- The inner content should be set like the format below (page size set to a **single decimal place**):
+- The inner content should be set like the format below (page size in kilobytes, set to a **single decimal place**):
 
-```
+```yaml
 ---
 pageurl: yourdomain.com
 size: 8.2
@@ -44,4 +44,3 @@ size: 8.2
 ## Bugs
 
 If you come across any bugs or incorrect web page listings on this site, please [submit a ticket](https://todo.sr.ht/~bt/1mb-club-bugs) for that as well! Please **do not** use tickets to submit websites! Thank you.
-
