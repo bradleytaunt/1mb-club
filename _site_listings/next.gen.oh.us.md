@@ -1,6 +1,6 @@
 ---
-pageurl: next.gen.oh.us/~anton/
+pageurl: www.next.gen.oh.us/~anton/
 http: true
 hof: true
-size: 6.2
+size: 2.2
 ---
