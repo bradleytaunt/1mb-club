@@ -1,4 +1,4 @@
 ---
-pageurl: www.ftcunion.org
-size: 394.90
+pageurl: ftcunion.org
+size: 592.2
 ---
