@@ -23,11 +23,11 @@ permalink: "submit/"
 
 ![Firefox network tab showing the full web page size of 1MB Club](/public/images/submit-screenshot.png)
 
-### Sending Patches
+### Open a Pull Request
 
-The main project repo can be found [here](https://git.sr.ht/~bt/1mb-club).
+The main project repo can be found [here](https://codeberg.org/btxx/1mb-club).
 
-[Submit a patch](https://lists.sr.ht/~bt/1mb-club-devel) and your web page will be reviewed for quality assurance. If you are not familiar with submitting patches through email, please take a look at: [git-send-email.io/](https://git-send-email.io/).
+[Open a pull request](https://codeberg.org/btxx/1mb-club/pulls) and your web page will be reviewed for quality assurance.
 
 The format of your newly added web page should be as follows:
 
@@ -43,4 +43,6 @@ size: 8.2
 
 ## Bugs
 
-If you come across any bugs or incorrect web page listings on this site, please [submit a ticket](https://todo.sr.ht/~bt/1mb-club-bugs) for that as well! Please **do not** use tickets to submit websites! Thank you.
+If you come across any bugs or incorrect web page listings on this site, please [open an issue](https://codeberg.org/btxx/1mb-club/issues) for that as well! Please **do not** use issues to submit websites! They will be ignored and closed! 
+
+Thank you.
