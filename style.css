@@ -21,11 +21,16 @@ body {
     padding: 10px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h5,h6 {
     background: #516C95;
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+h4 {
+    border-bottom: 1px solid;
+    font-size: 1.2rem;
 }
 
 h1 {

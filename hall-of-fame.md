@@ -4,55 +4,67 @@ layout: page
 permalink: "hall-of-fame/"
 ---
 
-## Join the Hall of Fame (of Pizza)
+## Join the Hall of Fame
 
-> I previously used BuyMeACoffee to accept donations but have since moved away from that platform.
+Help out the 1MB Club by contributing directly to **hosting costs and domain renewals**. In return, you can become a *Hall of Fame* member!
 
-Help out the 1MB Club (and me personally!) with a small one-time/monthly donation of pizza.
+> The contribution link below mentions **btxx.org**; this is my "personal" domain where all my other [open source projects](https://btxx.org/projects) are hosted. Additionally, all project domains (including this website) are registered and renewed within that same account. 
+>
+> By contributing funds directly to this account, you help to off-set hosting / domain renewal costs and maintain the longevity of these projects. 
+>
+> Please be aware, all contributions are made *explicitly* to NearlyFreeSpeech.
+>
+> **I do not receive any of the funding directly**.
+>
+> Please leave your information (or not if you prefer to be anonymous) during the form submission process. This allows me to mention you in the Hall of Fame (more on that below).
+>
+> [Contribute funds to my NearlyFreeSpeech.NET account ↗️](https://www.nearlyfreespeech.net/contribute/btxx.org)
 
-[Donate a pizza through PayPal](https://www.paypal.com/donate/?hosted_button_id=5A32GB38TPRBG)
+#### Yearly Operational Costs
+
+FYI: the overall cost to run this website is ~20/year for hosting and $15/year to renew the domain. That means just **$35 a year in contributions** would let this project continue to operate *indefinitely*.
 
 ## What You Get in Return
 
-You get your website posted inside the main "Hall of Fame" section found on both the homepage of this site and the bottom of every blog post. You'll also have your name mentioned on my personal [Pizza Fund page](https://bt.ht/pizza) (unless you wish to remain anonymous). 
+You get your website posted inside the main "Hall of Fame" section found on both the homepage of this site and the bottom of every blog post.
 
 Nothing crazy but it's the least I can do to say thank you!
 
-## Givers of Pizza
+## Contributers
 
-Listed below are the kind folks who have donated me pizzas.
+Listed below are the kind folks who have contributed to hosting / domain costs.
 
 |Name|Amount|
 |----|------|
-|Alveek|$3 (pizza slice)|
-|Jakob M|$9 (large pizza)|
-|Anonymous|$9 (large pizza)|
-|Kristian Scott|$3 (pizza slice)|
-|Anonymous|$9 (large pizza)|
-|Anonymous|$3 (pizza slice)|
-|Anonymous|$3 (pizza slice)|
-|Luke Davis|$3 (pizza slice)|
-|Anonymous|$3 (pizza slice)|
-|Jamie Smith|$3 (pizza slice)|
-|@danielsadac|$9 (large pizza)|
-|beltbro.com|$15 (large pizza + toppings)|
-|tedmagaoay|$3 (pizza slice)|
-|@salis|$9 (large pizza)|
-|@alessacrea|$15 (large pizza + toppings)|
-|tedmagaoay|$3 (pizza slice)|
-|Joshua|$9 (large pizza)|
-|DevITjobs|$9 (large pizza)|
-|Jakub|$3 (pizza slice)|
-|Jakub|$3 (pizza slice)|
-|Nicolas|$3 (pizza slice)|
-|@jjsuper1|$15 (large pizza + toppings)|
-|Willem L. Middelkoop|$9 (large pizza)|
-|Ivan S|$15 (large pizza + toppings)|
-|adast.dk|$15 (large pizza + toppings)|
-|Jens Steger|$9 (large pizza)|
-|Alexey|$11 (large pizza)|
-|Justin Wong|$3 (pizza slice)|
-|Nick Sherman|$26 (large pizza + toppings)|
-|Christian Cleberg|$50 (2x large pizza + toppings)|
+|Alveek|$3|
+|Jakob M|$9|
+|Anonymous|$9|
+|Kristian Scott|$3|
+|Anonymous|$9|
+|Anonymous|$3|
+|Anonymous|$3|
+|Luke Davis|$3|
+|Anonymous|$3|
+|Jamie Smith|$3|
+|@danielsadac|$9|
+|beltbro.com|$15|
+|tedmagaoay|$3|
+|@salis|$9|
+|@alessacrea|$15|
+|tedmagaoay|$3|
+|Joshua|$9|
+|DevITjobs|$9|
+|Jakub|$3|
+|Jakub|$3|
+|Nicolas|$3|
+|@jjsuper1|$15|
+|Willem L. Middelkoop|$9|
+|Ivan S|$15|
+|adast.dk|$15|
+|Jens Steger|$9|
+|Alexey|$11|
+|Justin Wong|$3|
+|Nick Sherman|$26|
+|Christian Cleberg|$50|
 
 
