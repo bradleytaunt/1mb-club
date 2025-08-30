@@ -1,4 +1,4 @@
 ---
 pageurl: ari.lt
-size: 181.9
+size: 176.5
 ---
