@@ -1,6 +1,6 @@
 ---
-pageurl: www.next.gen.oh.us/~anton/
+pageurl: w3.next.gen.oh.us/~asm/
 http: true
 hof: true
-size: 70.6
+size: 7.0
 ---
