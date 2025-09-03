@@ -1,4 +1,4 @@
 ---
 pageurl: peterspath.net
-size: 324,6
+size: 324.6
 ---
