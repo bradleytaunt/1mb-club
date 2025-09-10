@@ -1,4 +1,4 @@
 ---
 pageurl: noelle.dev
-size: 28.8
+size: 29.5
 ---
