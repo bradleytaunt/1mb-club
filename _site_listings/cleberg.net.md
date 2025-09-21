@@ -1,5 +1,5 @@
 ---
 pageurl: cleberg.net
-size: 7.7
+size: 1.9
 hof: true
 ---

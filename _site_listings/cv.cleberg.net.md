@@ -1,4 +1,4 @@
 ---
 pageurl: cv.cleberg.net
-size: 1.9
+size: 2.0
 ---
