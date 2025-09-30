@@ -1,4 +1,4 @@
 ---
 pageurl: isgithubipv6.live
-size: 16.6
+size: 3.5
 ---
