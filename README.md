@@ -3,14 +3,13 @@
 
 An exclusive members-only club for web pages weighing less than 1 megabyte
 
-Live collection: https://1mb.club
+Live collection: [1mb.club](https://1mb.club)
 
 
 Submitting a Website
 --------------------
 
-Please follow the instructions found here: 
-https://1mb.club/submit
+Please follow the [instructions found here](https://1mb.club/submit).
 
 
 Review & Accepting Submissions
