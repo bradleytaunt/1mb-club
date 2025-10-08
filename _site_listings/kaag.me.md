@@ -1,5 +1,5 @@
 ---
 pageurl: kaag.me
-size: 18.5
+size: 24.2
 ---
 
