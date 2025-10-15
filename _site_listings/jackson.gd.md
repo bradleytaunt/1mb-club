@@ -1,4 +1,4 @@
 ---
 pageurl: jackson.gd
-size: 594.8
+size: 256.7
 ---
