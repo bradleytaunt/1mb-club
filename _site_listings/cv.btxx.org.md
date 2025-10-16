@@ -1,4 +1,4 @@
 ---
 pageurl: cv.btxx.org
-size: 0.5
+size: 0.4
 ---
