@@ -15,9 +15,9 @@ gem "jekyll-sass-converter", "~> 2.2"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
-#group :jekyll_plugins do
-#  gem "jekyll-feed", "~> 0.12"
-#end
+group :jekyll_plugins do
+  gem "jekyll-gzip"
+end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
