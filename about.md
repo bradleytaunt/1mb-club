@@ -15,6 +15,8 @@ But we can make a difference - no matter how small it may seem. <em>1MB Club</em
     <cite>- Edsger Wybe Dijkstra</cite>
 </blockquote>
 
+The full project (including source code, tickets, bug reports, wiki etc.) can be [found here](https://sr.ht/~bt/1mb-club/).
+
 ## Who Runs 1MB Club?
 
 This project is a one-man operation. My name is [Bradley Taunt](https://btxx.org) and I'm a designer/developer with over 12 years experience building on the web. I'm passionate about performance (obviously), accessibility and improving user experience across the internet.

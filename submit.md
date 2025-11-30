@@ -25,9 +25,11 @@ permalink: "submit/"
 
 ### Submitting Patches
 
-The main project repo can be found [here](https://git.btxx.org/1mb-club/).[^1]
+The main project repo can be [found here](https://git.sr.ht/~bt/1mb-club).[^1]
 
-[Submit a patch](https://git-send-email.io/) and your web page will be reviewed for quality assurance.
+[Submit a patch](https://lists.sr.ht/~bt/1mb-club-devel) and your web page will be reviewed for quality assurance.
+
+If you have never submitted a patch with git email, take a look at this very helpful guide: [git-send-email.io](https://git-send-email.io/)
 
 The format of your newly added web page should be as follows:
 
@@ -41,9 +43,9 @@ size: 8.2
 ---
 ```
 
-## Bugs
+## Reporting Bugs or Broken Links
 
-If you come across any bugs or incorrect web page listings on this site, please [email me](mailto:1mb-club@patches.btxx.org). Please **do not** use this as a means to submit websites! They will be ignored and closed! 
+If you come across any bugs or incorrect/dead web page listings on this site, feel free to [open a ticket](https://todo.sr.ht/~bt/1mb-club-bugs). Please **do not** use this as a means to submit websites! They will be ignored and closed!
 
 Thank you.
 
