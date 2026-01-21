@@ -97,10 +97,20 @@ p code, li code {
     width: 45px;
 }
 
+.posts-list li {
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
 .post-time {
     color: #24272D;
     display: block;
     margin:  0.5em 0;
+}
+
+.center {
+    text-align: center;
 }
 
 table {
@@ -139,12 +149,12 @@ table.members tbody tr td:first-child::before {
     z-index: -2;
 }
 
-nav ul {
+#nav ul {
     margin: 1em 0;
     padding: 0;
     text-align: center;
 }
-nav ul li {
+#nav ul li {
     display: inline-block;
     list-style: none;
     margin:  0 10px;
@@ -201,10 +211,10 @@ nav ul li {
     font-size: 90%;
 }
 
-footer {
+#footer {
     text-align: center;
 }
-footer p {
+#footer p {
     margin-bottom: 0;
 }
 
@@ -215,12 +225,12 @@ footer p {
 }
 
 @media(max-width: 800px) {
-    main > .http-badge:nth-of-type(1) {
+    #main > .http-badge:nth-of-type(1) {
         display: block;
         float: none;
         margin: 0 auto;
     }
-    main > .http-badge:nth-of-type(1) + p {
+    #main > .http-badge:nth-of-type(1) + p {
         text-align: center;
     }
     table tr td:first-child {
