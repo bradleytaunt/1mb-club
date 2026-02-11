@@ -1,4 +1,4 @@
 ---
 pageurl: hofstede.it
-size: 956
+size: 956.9
 ---
