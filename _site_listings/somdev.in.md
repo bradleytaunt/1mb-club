@@ -1,4 +1,4 @@
 ---
 pageurl: somdev.in
-size: 315.96
+size: 315.9
 ---
