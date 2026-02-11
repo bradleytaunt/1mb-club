@@ -13,8 +13,8 @@ tasks:
     sudo gem install bundler
 - jekyll-build: |
     cd $repo
-    bundle install
-    bundle exec jekyll build
+    sudo bundle install
+    sudo bundle exec jekyll build
 - package-site: |
     cd $repo/_site
     tar -cvzh . > ../site.tar.gz
