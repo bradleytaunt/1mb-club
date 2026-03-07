@@ -8,11 +8,11 @@ permalink: "hall-of-fame/"
 
 Help out the 1MB Club by contributing directly to **hosting costs and domain renewals**. In return, you can become a *Hall of Fame* member!
 
-[Buy me a coffee](https://buymeacoffee.com/wqtmtn7ir)
+[Contribute directly to NearlyFreeSpeech](https://www.nearlyfreespeech.net/contribute/btxx.org)
 
-#### Yearly Operational Costs
+**Note**: The above contribution page will mention my personal URL `btxx.org`. That is the main project URL associated with the NearlyFreeSpeech account. That same account also hosts this project.
 
-FYI: the overall cost to maintain this website (along with all my other [projects](https://btxx.org/projects) on a single VM) is $40/year for hosting. That means just **$40 a year in contributions** would let this project continue to operate *indefinitely*.
+You can find even more details on my main, personal [contribute page](https://btxx.org/contribute).
 
 ## What You Get in Return
 
