@@ -114,11 +114,6 @@
 - domain: anyleaf.org
   size: 564.4
 
-- domain: www.aperture.akron.oh.us/~asm/
-  size: 7.1
-  http: true
-  hof: true
-
 - domain: apex.ac
   size: 19.1
 
@@ -204,10 +199,6 @@
 - domain: based.cooking
   size: 79.0
 
-- domain: bkapteijn.nl
-  size: 19.8
-  hof: true
-
 - domain: beh.uk
   size: 132.6
 
@@ -252,6 +243,10 @@
 
 - domain: bkamapantula.github.io
   size: 160.2
+
+- domain: bkapteijn.nl
+  size: 19.8
+  hof: true
 
 - domain: blakehawkins.com/blog
   size: 106.9
@@ -2397,6 +2392,11 @@
 
 - domain: wreeper.top
   size: 734.6
+
+- domain: www.aperture.akron.oh.us/~asm/
+  size: 7.1
+  http: true
+  hof: true
 
 - domain: xfce.org
   size: 607.4
