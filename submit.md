@@ -19,13 +19,16 @@ permalink: "submit/"
 
 ## How to Submit
 
-> Note: All web pages are manually tested through Firefox's network monitor for consistency. The **total** web page will be taken into account, not just the "transferred".
+1. Do a [Cloudflare URL Scan](https://radar.cloudflare.com/scan) of your website
+2. Once complete, check the "Bytes Total" stat in the "Network" card to make sure the **uncompressed** size of your site is less than 1MB
+3. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and [submit a patch](https://lists.sr.ht/~bt/1mb-club-devel)
+4. I will then review your patch and merge it into master. Once merged, your site will be added to the list.
 
-![Firefox network tab showing the full web page size of 1MB Club](/public/images/submit-screenshot.png)
+> **Note:** Don't worry about where you place your content inside the existing `_data/sites.yml` file. The order will be automatically reformatted once it is approved and merged into `master`.
 
-### Submitting Patches
+### Help With Submitting Patches
 
-The main project repo can be [found here](https://git.sr.ht/~bt/1mb-club).[^1]
+The main project repo can be [found here](https://git.sr.ht/~bt/1mb-club).
 
 [Submit a patch](https://lists.sr.ht/~bt/1mb-club-devel) and your web page will be reviewed for quality assurance.
 
@@ -33,14 +36,15 @@ If you have never submitted a patch with git email, take a look at this very hel
 
 The format of your newly added web page should be as follows:
 
-- Name the file as `yourdomain.com.md` (make note of the Markdown extension!)
-- The inner content should be set like the format below (page size in kilobytes, set to a **single decimal place**):
+```yaml
+- domain: your-cool-domain.com
+  size: 244.9
+```
+
+If your website also supports direct `HTTP` access, feel free to also include the following parameter:
 
 ```yaml
----
-pageurl: yourdomain.com
-size: 8.2
----
+http: true
 ```
 
 ## Reporting Bugs or Broken Links
@@ -48,5 +52,3 @@ size: 8.2
 If you come across any bugs or incorrect/dead web page listings on this site, feel free to [open a ticket](https://todo.sr.ht/~bt/1mb-club-bugs). Please **do not** use this as a means to submit websites! They will be ignored and closed!
 
 Thank you.
-
-[^1]: There is a project mirror on Codeberg but I do not regularly check there for updates, hence the push for git email patches.

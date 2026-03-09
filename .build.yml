@@ -1,0 +1,21 @@
+image: alpine/edge
+packages:
+  - yq
+  - git
+  - openssh
+secrets:
+  - 232c738f-79b2-4296-bd8e-e9eff01bae60
+sources:
+  - https://git.sr.ht/~bt/1mb-club
+tasks:
+  - format-sites: |
+      cd 1mb-club
+      git checkout master
+      git log -1 --pretty=format:'%an' | grep -q "Formatting Bot" && exit 0
+      git config user.email "bot@1mb.club"
+      git config user.name "Formatting Bot"
+      git remote set-url origin git@git.sr.ht:~bt/1mb-club
+      ssh-keyscan git.sr.ht >> ~/.ssh/known_hosts
+      yq --inplace 'sort_by(.domain)' _data/sites.yml
+      sed -i '1!s/- domain:/\n- domain:/g' _data/sites.yml
+      git diff --quiet || git commit -am "Fix formatting" && git push origin master

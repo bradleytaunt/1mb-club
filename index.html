@@ -9,8 +9,7 @@ summary: Listing all web pages under 1MB in total size
 </div>
 
 <div id="main">
-    {% assign famers = site.site_listings %}
-    {% assign websites = site.site_listings | sort: 'size' %}
+    {% assign websites = site.data.sites | sort: 'size' %}
     <h2 id="members">Official Members</h2>
     <img class="http-badge" src="/public/http-badge.svg" alt="HTTP badge" />
     <p>&nbsp;&nbsp;Items marked with this <i>clickable</i> badge support out-of-date browsers via HTTP (<a href="/blog/https-redirects">Why?</a>)</p>
@@ -27,11 +26,11 @@ summary: Listing all web pages under 1MB in total size
             <tr>
                 <td>
                     {% if item.http == true %}
-                        <a href="http://{{ item.pageurl }}">
+                        <a href="http://{{ item.domain }}">
                             <img class="http-badge" src="/public/http-badge.svg" alt="HTTP badge" />
                         </a>&nbsp;
                     {% endif %}
-                    <a class="site" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a>
+                    <a class="site" href="https://{{ item.domain }}">{{ item.domain }}</a>
                 </td>
                 <td align="right"><span>{{ item.size }}</span></td>
             </tr>
@@ -42,9 +41,9 @@ summary: Listing all web pages under 1MB in total size
         <h2 id="hof">🏆 Hall of Fame 🏆</h2>
         <p><strong>Supporters of a leaner web!</strong></p>
         <p>
-            {% for item in famers %}
+            {% for item in websites %}
                 {% if item.hof == true %}
-                <span><a href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></span>
+                <span><a href="https://{{ item.domain }}">{{ item.domain }}</a></span>
                 {% endif %}
             {% endfor %}
         </p>
