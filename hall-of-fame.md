@@ -8,11 +8,7 @@ permalink: "hall-of-fame/"
 
 Help out the 1MB Club by contributing directly to **hosting costs and domain renewals**. In return, you can become a *Hall of Fame* member!
 
-[Contribute directly to NearlyFreeSpeech](https://www.nearlyfreespeech.net/contribute/btxx.org)
-
-**Note**: The above contribution page will mention my personal URL `btxx.org`. That is the main project URL associated with the NearlyFreeSpeech account. That same account also hosts this project.
-
-You can find even more details on my main, personal [contribute page](https://btxx.org/contribute).
+[Contribute directly to the NearlyFreeSpeech account](https://www.nearlyfreespeech.net/contribute/1mb.club)
 
 ## What You Get in Return
 
