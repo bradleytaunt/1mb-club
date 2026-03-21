@@ -1,6 +1,3 @@
-- domain: tom-davi.es
-  size: 9.4
-
 - domain: 0xedward.io
   size: 39.9
 
@@ -2155,6 +2152,9 @@
 
 - domain: timothyrice.org
   size: 11.7
+
+- domain: tom-davi.es
+  size: 9.4
 
 - domain: tommi.space/home
   size: 667.1
