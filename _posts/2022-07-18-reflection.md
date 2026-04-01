@@ -1,7 +1,7 @@
 ---
 title: "Two Years and Over 700 Websites Later"
 layout: post
-summary: "Reflecting on the upcoming borthday for 1MB Club"
+summary: "Reflecting on the upcoming birthday for 1MB Club"
 ---
 
 Although the second "birthday" of the 1MB Club is officially *November 19*, I couldn't help by write down some of my thoughts about this project over the past two years. I honestly have nothing but positive things to say and the amount of interest in this silly side project has been wonderful!
