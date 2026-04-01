@@ -8,14 +8,13 @@ layout: default
 
 <div class="thanks">
     <h3>Special Thanks</h3>
-    <p>I'm extremely grateful for the support from the "Hall of Fame" supporters:<br>
-    {% assign websites = site.site_listings %}
-        {% for item in websites %}
-            {% if item.hof == true %}
-            <span><a target="_blank" href="https://{{ item.pageurl }}">{{ item.pageurl }}</a></span>
-            {% endif %}
-        {% endfor %}
-    </p>
+    <p>I'm extremely grateful for the support from the "Hall of Fame" supporters:</p>
+    {% assign websites = site.data.sites %}
+    {% for item in websites %}
+        {% if item.hof == true %}
+        <span><a href="https://{{ item.domain }}">{{ item.domain }}</a>,</span>
+        {% endif %}
+    {% endfor %}
     <p>If you too would like to support this project and help fund more articles like this one:<br><a href="/hall-of-fame">Become a supporter today →</a></p>
 </div>
 
