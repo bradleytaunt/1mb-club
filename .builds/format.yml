@@ -7,6 +7,11 @@ secrets:
   - 232c738f-79b2-4296-bd8e-e9eff01bae60
 sources:
   - https://git.sr.ht/~bt/1mb-club
+submitter:
+  git.sr.ht:
+    enabled: true
+    allow-refs:
+      - refs/heads/master
 tasks:
   - format-sites: |
       cd 1mb-club
@@ -18,4 +23,4 @@ tasks:
       ssh-keyscan git.sr.ht >> ~/.ssh/known_hosts
       yq --inplace 'sort_by(.domain)' _data/sites.yml
       sed -i '1!s/- domain:/\n- domain:/g' _data/sites.yml
-      git diff --quiet || git commit -am "Fix formatting" && git push origin master
+      git diff --quiet || (git commit -am "Fix formatting" && git push origin master)

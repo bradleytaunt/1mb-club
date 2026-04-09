@@ -1,10 +1,10 @@
 ---
-title: "Four Years and Over 800 Websites Later"
+title: "Four More Years and Over 800 Websites Later"
 layout: post
 summary: "Reflecting on running 1MB Club for 4 years"
 ---
 
-This project has been up and running for **4 years**. Okay, it's technically only been 3 years and 9 months but I like to round up. That sounds long in the world of the ever-changing internet, but it feels like only months ago I launched this project... Where does all the time go?
+This project has been up and running for **6 years**. Okay, it's technically only been 5 years and 9 months but I like to round up. That sounds long in the world of the ever-changing internet, but it feels like only months ago I launched this project... Where does all the time go?
 
 I figured I would take this time to say thank you to everyone who has added their wonderful website(s) to the club and reflect on this passage of time, similar to what I did in my previous post: [Two Years and Over 700 Websites Later](https://1mb.club/blog/reflection/).
 
