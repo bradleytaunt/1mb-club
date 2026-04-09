@@ -7,6 +7,11 @@ packages:
 environment:
   repo: 1mb-club
   site: 1mb.club
+submitter:
+  git.sr.ht:
+    enabled: true
+    allow-refs:
+      - refs/heads/deploy
 tasks:
 - install-bundler: |
     cd $repo
