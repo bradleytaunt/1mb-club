@@ -1,26 +1,24 @@
-image: alpine/edge
-packages:
-  - hut
-  - ruby
-  - ruby-dev
-  - build-base
-  - jekyll
+image: debian/stable
 oauth: pages.sr.ht/PAGES:RW
+packages:
+- hut
+- ruby-full
+- ruby-dev
 environment:
+  repo: 1mb-club
   site: 1mb.club
-sources:
-  - https://git.sr.ht/~bt/1mb-club
-submitter:
-  git.sr.ht:
-    enabled: true
-    allow-refs:
-      - refs/heads/deploy
 tasks:
-  - build: |
-      cd 1mb-club
-      bundle install
-      bundle exec jekyll build
-  - deploy: |
-      cd 1mb-club
-      tar -czf site.tar.gz -C _site .
-      hut pages publish -d $site site.tar.gz
+- install-bundler: |
+    cd $repo
+    sudo gem install bundler
+- jekyll-build: |
+    cd $repo
+    sudo bundle install
+    sudo bundle exec jekyll build
+- package-site: |
+    cd $repo/_site
+    tar -cvzh . > ../site.tar.gz
+- deploy: |
+    hut pages publish -d $site --site-config $repo/siteconfig.json $repo/site.tar.gz
+- deploy-www: |
+    hut pages publish -d www.$site --site-config $repo/siteconfig.json $repo/site.tar.gz
