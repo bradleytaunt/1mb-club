@@ -4,6 +4,8 @@ packages:
 - hut
 - ruby-full
 - ruby-dev
+secrets:
+  - 232c738f-79b2-4296-bd8e-e9eff01bae60
 environment:
   repo: 1mb-club
   site: 1mb.club
