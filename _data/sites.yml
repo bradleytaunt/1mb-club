@@ -924,12 +924,12 @@
 - domain: isgithubipv6.live
   size: 3.5
 
+- domain: istheshit.link
+  size: 68.1
+
 - domain: isthisawebsite.com
   size: 51.1
   hof: true
-
-- domain: istheshit.link
-  size: 68.1
 
 - domain: isub.dev
   size: 145.0
