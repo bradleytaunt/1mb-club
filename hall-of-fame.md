@@ -53,5 +53,6 @@ Listed below are the kind folks who have contributed to hosting / domain costs.
 |Nick Sherman|$26|
 |Christian Cleberg|$50|
 |Bas Kapteijn|$3|
+|Callum Fisher|$3|
 
 
