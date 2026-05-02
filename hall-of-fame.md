@@ -20,39 +20,40 @@ Nothing crazy but it's the least I can do to say thank you!
 
 Listed below are the kind folks who have contributed to hosting / domain costs.
 
+Donations of $25 or more get a special ⭐ as a bonus thank you!
+
 |Name|Amount|
 |----|------|
-|Alveek|$3|
+|⭐ Christian Cleberg|$50|
+|⭐ Nick Sherman|$26|
+|beltbro.com|$15|
+|@alessacrea|$15|
+|@jjsuper1|$15|
+|Ivan S|$15|
+|adast.dk|$15|
+|Alexey|$11|
 |Jakob M|$9|
 |Anonymous|$9|
-|Kristian Scott|$3|
 |Anonymous|$9|
+|@danielsadac|$9|
+|@salis|$9|
+|Joshua|$9|
+|DevITjobs|$9|
+|Willem L. Middelkoop|$9|
+|Jens Steger|$9|
+|Alveek|$3|
+|Kristian Scott|$3|
 |Anonymous|$3|
 |Anonymous|$3|
 |Luke Davis|$3|
 |Anonymous|$3|
 |Jamie Smith|$3|
-|@danielsadac|$9|
-|beltbro.com|$15|
+|Anonymous|$3|
 |tedmagaoay|$3|
-|@salis|$9|
-|@alessacrea|$15|
 |tedmagaoay|$3|
-|Joshua|$9|
-|DevITjobs|$9|
 |Jakub|$3|
 |Jakub|$3|
 |Nicolas|$3|
-|@jjsuper1|$15|
-|Willem L. Middelkoop|$9|
-|Ivan S|$15|
-|adast.dk|$15|
-|Jens Steger|$9|
-|Alexey|$11|
 |Justin Wong|$3|
-|Nick Sherman|$26|
-|Christian Cleberg|$50|
 |Bas Kapteijn|$3|
 |Callum Fisher|$3|
-
-
