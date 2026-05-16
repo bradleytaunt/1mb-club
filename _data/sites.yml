@@ -1692,6 +1692,10 @@
 - domain: ploum.net
   size: 8.0
 
+- domain: pnppl.cc
+  size: 30.0
+  http: true
+
 - domain: postageapi.com
   size: 32.3
 
