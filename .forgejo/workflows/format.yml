@@ -6,15 +6,15 @@ on:
 jobs:
   format-sites:
     runs-on: codeberg-small
-    container:
-      image: alpine:edge
     steps:
-      - name: Install packages
-        run: apk add --no-cache yq git openssh
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Install yq
+        run: |
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
       - name: Skip if last commit is from the bot
         run: |
           if git log -1 --pretty=format:'%an' | grep -q "Formatting Bot"; then
