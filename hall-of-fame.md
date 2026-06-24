@@ -31,6 +31,7 @@ Donations of $25 or more get a special ⭐ as a bonus thank you!
 |@jjsuper1|$15|
 |Ivan S|$15|
 |adast.dk|$15|
+|Anonymous|$11|
 |Alexey|$11|
 |Jakob M|$9|
 |Anonymous|$9|
