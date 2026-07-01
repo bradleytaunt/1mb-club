@@ -111,10 +111,6 @@
 - domain: anti-algebra.tiiny.site
   size: 330.1
 
-- domain: antonm.org
-  size: 4.7
-  hof: true
-
 - domain: anyleaf.org
   size: 564.4
 
@@ -2425,6 +2421,10 @@
 
 - domain: wreeper.top
   size: 734.6
+
+- domain: www.ocelot.cascaded.net/~anton/
+  size: 2.2
+  hof: true
 
 - domain: xfce.org
   size: 607.4
