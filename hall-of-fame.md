@@ -8,7 +8,7 @@ permalink: "hall-of-fame/"
 
 Help out the 1MB Club by contributing directly to **hosting costs and domain renewals**. In return, you can become a *Hall of Fame* member!
 
-<a href="https://liberapay.com/btxx/donate"><img alt="Donate using Liberapay" src="/public/images/donate.svg"></a>
+[Contribute directly to the NearlyFreeSpeech account](https://www.nearlyfreespeech.net/contribute/1mb.club)
 
 ## What You Get in Return
 
