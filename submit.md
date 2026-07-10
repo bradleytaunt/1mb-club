@@ -21,18 +21,16 @@ permalink: "submit/"
 
 1. Do a [Cloudflare URL Scan](https://radar.cloudflare.com/scan) of your website
 2. Once complete, check the "Bytes Total" stat in the "Network" card to make sure the **uncompressed** size of your site is less than 1MB
-3. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and [submit a patch](https://lists.sr.ht/~bt/1mb-club-devel)
+3. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and [open a PR](https://codeberg.org/btxx/1mb-club) or [submit a patch via email](https://lists.sr.ht/~bt/1mb-club-devel) if that's your jam
 4. I will then review your patch and merge it into master. Once merged, your site will be added to the list.
 
 > **Note:** Don't worry about where you place your content inside the existing `_data/sites.yml` file. The order will be automatically reformatted once it is approved and merged into `master`.
 
-### Help With Submitting Patches
-
-The main project repo can be [found here](https://git.sr.ht/~bt/1mb-club).
-
-[Submit a patch](https://lists.sr.ht/~bt/1mb-club-devel) and your web page will be reviewed for quality assurance.
+### Help With Submitting Email Patches
 
 If you have never submitted a patch with git email, take a look at this very helpful guide: [git-send-email.io](https://git-send-email.io/)
+
+Otherwise, feel free to simply [open a PR on Codeberg](https://codeberg.org/btxx/1mb-club).
 
 The format of your newly added web page should be as follows:
 
@@ -49,6 +47,6 @@ http: true
 
 ## Reporting Bugs or Broken Links
 
-If you come across any bugs or incorrect/dead web page listings on this site, feel free to [open a ticket](https://todo.sr.ht/~bt/1mb-club-bugs). Please **do not** use this as a means to submit websites! They will be ignored and closed!
+If you come across any bugs or incorrect/dead web page listings on this site, feel free to [open a ticket](https://codeberg.org/btxx/1mb-club/issues). Please **do not** use this as a means to submit websites! They will be ignored and closed!
 
 Thank you.
