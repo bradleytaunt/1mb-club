@@ -1,6 +1,3 @@
-- domain: hwiki.xyz
-  size: 87.5
-  
 - domain: 0xedward.io
   size: 39.9
 
@@ -874,6 +871,9 @@
 
 - domain: hvdm.eu.pythonanywhere.com/projects/
   size: 2.7
+
+- domain: hwiki.xyz
+  size: 87.5
 
 - domain: hypertexthero.com
   size: 104.7
