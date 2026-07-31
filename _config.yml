@@ -12,6 +12,8 @@ collections:
   site_listings:
     output: false
 
+host: 0.0.0.0
+
 permalink: /blog/:title/
 
 plugins:

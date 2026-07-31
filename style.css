@@ -131,7 +131,11 @@ table.members {
 }
 table.members tbody tr {
     counter-increment: rowNumber;
-    position: relative;
+    border-bottom: 1px solid;
+    background-image: linear-gradient(to right, var(--c) var(--fill), transparent var(--fill));
+    background-position: bottom left;
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
 }
 table.members tbody tr td:first-child::before {
     border-bottom: 1px solid #24272D;
@@ -147,6 +151,9 @@ table.members tbody tr td:first-child::before {
     position:  absolute;
     text-align: right;
     z-index: -2;
+}
+table.members td {
+    background: none !important;
 }
 
 #nav ul {
@@ -271,6 +278,13 @@ table.members tbody tr td:first-child::before {
     table.members tbody tr td:first-child::before {
         border-bottom: 1px solid #ccc;
         color: #ccc;
+    }
+    table.members tbody tr::before {
+        border-color: black;
+    }
+    table.members tbody tr::after {
+        background: black;
+        border-color: black;
     }
     .fame {
         color: black;

@@ -24,7 +24,11 @@ summary: Listing all web pages under 1MB in total size
         </thead>
         <tbody id="container">
         {% for item in websites %}
-            <tr>
+            {% assign pct = item.size | times: 100.0 | divided_by: 1024.0 %}
+            {% if item.size < 410 %}{% assign c = "lightgreen" %}
+            {% elsif item.size < 717 %}{% assign c = "orange" %}
+            {% else %}{% assign c = "crimson" %}{% endif %}
+            <tr style="--fill:{{ item.size | times: 100.0 | divided_by: 1024.0 }}%;--c:{{ c }}">
                 <td>
                     {% if item.http == true %}
                         <a href="http://{{ item.domain }}">
