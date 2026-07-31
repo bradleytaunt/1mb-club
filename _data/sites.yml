@@ -49,7 +49,6 @@
 
 - domain: actualwebsite.org
   size: 32.3
-  http: true
 
 - domain: ad301.org
   size: 8.1
@@ -316,7 +315,6 @@
 
 - domain: btxx.org
   size: 5.3
-  http: true
 
 - domain: buchh.org
   size: 3.1
