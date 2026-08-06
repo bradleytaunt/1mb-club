@@ -1811,6 +1811,10 @@
 - domain: ren.rocks
   size: 353.2
 
+- domain: restruct.nekoweb.org
+  size: 739
+  http: true
+
 - domain: reza.naghibi.com
   size: 26.9
 
@@ -2494,7 +2498,3 @@
 
 - domain: zwbetz.com
   size: 56.4
-
-- domain: restruct.nekoweb.org
-  size: 739
-  http: true
