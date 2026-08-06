@@ -2494,3 +2494,7 @@
 
 - domain: zwbetz.com
   size: 56.4
+
+- domain: restruct.nekoweb.org
+  size: 739
+  http: true
