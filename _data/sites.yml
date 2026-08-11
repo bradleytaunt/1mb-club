@@ -67,6 +67,9 @@
   size: 96.3
   hof: true
 
+- domain: alex.mw
+  size: 5.86
+
 - domain: alexalejandre.com
   size: 25.4
 
@@ -2498,6 +2501,3 @@
 
 - domain: zwbetz.com
   size: 56.4
-
-- domain: alex.mw
-  size: 5.86
