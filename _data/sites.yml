@@ -1,6 +1,3 @@
-- domain: connectedbypuzzles.com
-  size: 633.0
-  
 - domain: 0xedward.io
   size: 39.9
 
@@ -427,6 +424,9 @@
 
 - domain: concise-encoding.org
   size: 87.5
+
+- domain: connectedbypuzzles.com
+  size: 633.0
 
 - domain: cosmo.red
   size: 17.2
