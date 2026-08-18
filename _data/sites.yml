@@ -911,6 +911,7 @@
 
 - domain: insecure.club
   size: 20.7
+  http: true
 
 - domain: instokj.fi
   size: 233.0
