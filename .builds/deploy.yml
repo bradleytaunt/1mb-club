@@ -1,27 +1,25 @@
-image: debian/stable
+image: alpine/edge
 oauth: pages.sr.ht/PAGES:RW
 packages:
 - hut
 - ruby-full
 - ruby-dev
 secrets:
-  - 232c738f-79b2-4296-bd8e-e9eff01bae60
+  - 877617a4-009f-43a7-9b4c-25e921d2f61f
 environment:
   repo: 1mb-club
   site: 1mb.club
+  BUNDLE_PATH: vendor/bundle
 submitter:
   git.sr.ht:
     enabled: true
     allow-refs:
       - refs/heads/deploy
 tasks:
-- install-bundler: |
-    cd $repo
-    sudo gem install bundler
 - jekyll-build: |
     cd $repo
-    sudo bundle install
-    sudo bundle exec jekyll build
+    bundle install
+    bundle exec jekyll build
 - package-site: |
     cd $repo/_site
     tar -cvzh . > ../site.tar.gz
