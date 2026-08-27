@@ -6,9 +6,11 @@ permalink: "hall-of-fame/"
 
 ## Join the Hall of Fame
 
-Help out the 1MB Club by donating to cover **hosting costs and domain renewals**. In return, you can become a *Hall of Fame* member!
+Help out the 1MB Club by donating directly to **hosting costs and domain renewals**. In return, you can become a *Hall of Fame* member!
 
-[Buy me a coffee](https://buymeacoffee.com/wqtmtn7ir)
+[Add funds to the NearlyFreeSpeech.NET account](https://www.nearlyfreespeech.net/contribute/1mb.club) 
+
+Be sure to send me a message with your name, website, and donation amount if you wish to be listed below!
 
 ## What You Get in Return
 
