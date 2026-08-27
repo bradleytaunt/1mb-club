@@ -1094,9 +1094,6 @@
 - domain: justfuckingusehtml.com
   size: 29.6
 
-- domain: www.justus.pw
-  size: 14.2
-
 - domain: jvanelian.dev
   size: 23.4
 
@@ -2445,6 +2442,9 @@
 
 - domain: wreeper.top
   size: 734.6
+
+- domain: www.justus.pw
+  size: 14.2
 
 - domain: www.ocelot.cascaded.org/~anton/
   size: 3.2
