@@ -1,14 +1,15 @@
 image: alpine/edge
-oauth: pages.sr.ht/PAGES:RW
 packages:
-- hut
 - ruby-full
 - ruby-dev
+- rsync
 secrets:
-  - 877617a4-009f-43a7-9b4c-25e921d2f61f
+  - ed9e4efb-54f3-4e5a-8893-a6ac262df30d
+  - 5dd47c15-9600-452e-b9a7-77312af1800d
 environment:
   repo: 1mb-club
-  site: 1mb.club
+  dest: /home/public/1mb.club
+  server: ssh.nyc1.nearlyfreespeech.net
   BUNDLE_PATH: vendor/bundle
 submitter:
   git.sr.ht:
@@ -16,14 +17,12 @@ submitter:
     allow-refs:
       - refs/heads/deploy
 tasks:
-- jekyll-build: |
+- ssh-setup: |
+    ssh-keyscan -H -4 $server >> ~/.ssh/known_hosts
+- build: |
     cd $repo
     bundle install
     bundle exec jekyll build
-- package-site: |
-    cd $repo/_site
-    tar -cvzh . > ../site.tar.gz
 - deploy: |
-    hut pages publish -d $site --site-config $repo/siteconfig.json $repo/site.tar.gz
-- deploy-www: |
-    hut pages publish -d www.$site --site-config $repo/siteconfig.json $repo/site.tar.gz
+    cd $repo
+    rsync -rltvz --delete _site/ nfsn:$dest/

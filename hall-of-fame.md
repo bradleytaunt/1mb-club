@@ -44,6 +44,7 @@ Donations of $25 or more get a special ⭐ as a bonus thank you!
 |DevITjobs|$9|
 |Willem L. Middelkoop|$9|
 |Jens Steger|$9|
+|Folio.fyi|$3|
 |Alveek|$3|
 |Kristian Scott|$3|
 |Anonymous|$3|
