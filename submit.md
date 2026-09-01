@@ -17,6 +17,10 @@ permalink: "submit/"
     <li>The web page must contain a reasonable amount of content / usefulness in order to be added - no sites with a simple line of text, etc.</li>
 </ol>
 
+## LLMs &amp; AI Generated Content
+
+Any websites suspected of being fully LLM-based or AI-generated will **not be permitted to join**. This isn't based off some "anti-AI stance" and shouldn't be misinterpreted as a form of virtue signaling. The rule mainly exists to *reduce the amount of low-effort submissions*. Thank you for understanding.
+
 ## How to Submit
 
 1. Do a [Debugbear Website Scan](https://www.debugbear.com/test/website-speed) of your website
