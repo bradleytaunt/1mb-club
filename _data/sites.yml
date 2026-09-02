@@ -2022,6 +2022,9 @@
 - domain: slowernews.com
   size: 120.8
 
+- domain: slug.lol
+  size: 97.9
+
 - domain: smallandmodern.com
   size: 799.7
 
@@ -2520,6 +2523,3 @@
 
 - domain: zwbetz.com
   size: 56.4
-
-- domain: slug.lol
-  size: 97.9
