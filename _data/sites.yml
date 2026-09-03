@@ -170,9 +170,6 @@
 - domain: auslandsguru.com
   size: 12.8
 
-- domain: inventati.org/diaphragmwp/giveuphc
-  size: 120.8
-
 - domain: autotutor.com.au
   size: 496.4
 
@@ -927,6 +924,9 @@
 
 - domain: introsec.de
   size: 176.9
+
+- domain: inventati.org/diaphragmwp/giveuphc
+  size: 120.8
 
 - domain: ionathan.ch
   size: 157.4
