@@ -23,10 +23,11 @@ Any websites suspected of being fully LLM-based or AI-generated will **not be pe
 
 ## How to Submit
 
-1. Do a [Debugbear Website Scan](https://www.debugbear.com/test/website-speed) of your website
-2. Once complete, check the "Bytes Total" stat in the "Network" card to make sure the **uncompressed** size of your site is less than 1MB
-3. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and [open a PR](https://codeberg.org/btxx/1mb-club) or [submit a patch via email](https://lists.sr.ht/~bt/1mb-club-devel) (if that's your jam)
-4. I will then review your patch and merge it into master. Once merged, your site will be added to the list.
+![Firefox's network tab showing total website size](/public/images/submit-screenshot.png)
+
+1. Check your website's *total* size (not transferred!) using Firefox's Network tab (make sure you have `cache` disabled and reload if necessary)
+2. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and [open a PR](https://codeberg.org/btxx/1mb-club) or [submit a patch via email](https://lists.sr.ht/~bt/1mb-club-devel) (if that's your jam)
+3. I will then review your patch and merge it into master. Once merged, your site will be added to the list.
 
 > **Note:** Don't worry about where you place your content inside the existing `_data/sites.yml` file. The order will be automatically reformatted once it is approved and merged into `master`.
 
