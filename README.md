@@ -5,12 +5,16 @@ An exclusive members-only club for web pages weighing less than 1 megabyte
 
 Live collection: [1mb.club](https://1mb.club)
 
-
 Submitting a Website
 --------------------
 
 Please follow the [instructions found here](https://1mb.club/submit).
 
+TL;DR: Send git email patches to 1mb-club@freelists.org
+
+You can also subscribe to the project's mailing list here:
+
+[freelists.org/list/1mb-club](https://www.freelists.org/list/1mb-club)
 
 Review & Accepting Submissions
 ------------------------------
