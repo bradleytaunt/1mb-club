@@ -1025,6 +1025,9 @@
 - domain: jaredwolff.com
   size: 274.4
 
+- domain: jarekavi.com
+  size: 492.7
+
 - domain: jarv.is
   size: 244.7
 
@@ -1426,6 +1429,9 @@
 
 - domain: mitjafelicijan.com
   size: 13.8
+
+- domain: mjj.io
+  size: 10.5
 
 - domain: mmmacleod.net/snowflake/
   size: 41.8
@@ -2530,9 +2536,3 @@
 
 - domain: zwbetz.com
   size: 56.4
-
-- domain: jarekavi.com
-  size: 492.7
-
-- domain: mjj.io
-  size: 10.5
