@@ -27,7 +27,7 @@ Any websites suspected of being fully LLM-based or AI-generated will **not be pe
 
 1. Check your website's *total* size (not transferred!) using Firefox's Network tab. 
   - Make sure you have `cache` disabled and ensure all resources have loaded. You might need to scroll the entire page if any assets are loaded in dynamically.
-2. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and [submit a patch via email](mailto:1mb-club@freelists.org). You can also subscribe to the official mailing list here: [freelists.org/list/1mb-club](https://www.freelists.org/list/1mb-club).
+2. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and submit a patch through [the official mailing list](https://lists.sr.ht/~bt/1mb-club-devel)..
 3. I will then review your patch and merge it into master. Once merged, your site will be added to the list.
 
 > **Note:** Don't worry about where you place your content inside the existing `_data/sites.yml` file. The order will be automatically reformatted once it is approved and merged into `master`.
@@ -51,6 +51,6 @@ http: true
 
 ## Reporting Bugs or Broken Links
 
-If you come across any bugs or incorrect/dead web page listings on this site, feel free to [reach out on the official mailing list](https://www.freelists.org/list/1mb-club). Please **do not** use this as a means to send in websites, unless it is an email patch. They will be ignored and closed!
+If you come across any bugs or incorrect/dead web page listings on this site, feel free to [reach out on the official mailing list](https://lists.sr.ht/~bt/1mb-club-devel). Please **do not** use this as a means to send in websites, unless it is an email patch. They will be ignored and closed!
 
 Thank you.
