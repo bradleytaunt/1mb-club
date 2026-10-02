@@ -28,6 +28,7 @@ Donations of $25 or more get a special ⭐ as a bonus thank you!
 |----|------|
 |⭐ Christian Cleberg|$50|
 |⭐ Nick Sherman|$26|
+|JT|$20|
 |beltbro.com|$15|
 |@alessacrea|$15|
 |@jjsuper1|$15|
