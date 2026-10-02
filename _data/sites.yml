@@ -677,6 +677,10 @@
 - domain: fantinel.dev
   size: 482.8
 
+- domain: fegis.net
+  size: 0.9
+  hof: true
+
 - domain: fennel-lang.org
   size: 638.3
 
@@ -2539,7 +2543,3 @@
 
 - domain: zwbetz.com
   size: 56.4
-
-- domain: fegis.net
-  size: 0.9
-  hof: true
