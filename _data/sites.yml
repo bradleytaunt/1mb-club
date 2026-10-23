@@ -2472,10 +2472,6 @@
 - domain: www.justus.pw
   size: 14.2
 
-- domain: www.ocelot.cascaded.org/~anton/
-  size: 3.2
-  hof: true
-
 - domain: xfce.org
   size: 607.4
 
