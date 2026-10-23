@@ -470,6 +470,10 @@
 - domain: dailylore.com
   size: 118.1
 
+- domain: dalliard.ch
+  size: 0.5
+  http: true
+
 - domain: daltoncraven.com
   size: 428.2
 
@@ -2536,7 +2540,3 @@
 
 - domain: zwbetz.com
   size: 56.4
-
-- domain: dalliard.ch
-  size: 0.5
-  http: true
