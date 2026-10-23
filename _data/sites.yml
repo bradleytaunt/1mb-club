@@ -2536,3 +2536,7 @@
 
 - domain: zwbetz.com
   size: 56.4
+
+- domain: dalliard.ch
+  size: 0.5
+  http: true
