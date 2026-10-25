@@ -511,9 +511,6 @@
 - domain: datatxt.org
   size: 10.5
 
-- domain: davcloud.xyz
-  size: 10.0
-
 - domain: daveguarino.com
   size: 14.6
 
@@ -1258,9 +1255,6 @@
 
 - domain: localnotes.page
   size: 3.2
-
-- domain: loganconnolly.com
-  size: 11.0
 
 - domain: loorjoal.netlify.app
   size: 390.0
@@ -2215,9 +2209,6 @@
 - domain: timog.org
   size: 15.1
 
-- domain: timothyrice.org
-  size: 11.7
-
 - domain: tom-davi.es
   size: 9.4
 
@@ -2235,10 +2226,6 @@
 
 - domain: torrent.parts
   size: 360.8
-
-- domain: traduction.faith
-  size: 11.4
-  http: true
 
 - domain: traist.co.uk
   size: 164.6
