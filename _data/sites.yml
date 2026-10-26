@@ -2451,6 +2451,9 @@
 - domain: www.justus.pw
   size: 14.2
 
+- domain: wxhboy.cn
+  size: 520.1
+
 - domain: xfce.org
   size: 607.4
 
@@ -2515,6 +2518,3 @@
 
 - domain: zwbetz.com
   size: 56.4
-
-- domain: wxhboy.cn
-  size: 520.1
