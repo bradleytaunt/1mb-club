@@ -1932,6 +1932,9 @@
 - domain: scastiel.dev
   size: 16.6
 
+- domain: scattersplatter.net
+  size: 76.2
+
 - domain: schemescape.com
   size: 4.1
 
@@ -2515,7 +2518,3 @@
 
 - domain: zwbetz.com
   size: 56.4
-
-- domain: scattersplatter.net
-  size: 76.2
-
