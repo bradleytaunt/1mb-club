@@ -14,7 +14,7 @@ But we can make a difference - no matter how small it may seem. <em>1MB Club</em
     <p>Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better. <cite>- Edsger Wybe Dijkstra</cite></p>
 </blockquote>
 
-The full project (including source code, tickets, bug reports, wiki etc.) can be [found here](https://sr.ht/~bt/1mb-club/).
+The source code can be [found here](https://git.btxx.org/1mb-club).
 
 ## Who Runs 1MB Club?
 

@@ -52,6 +52,6 @@ http: true
 
 ## Reporting Bugs or Broken Links
 
-If you come across any bugs or incorrect/dead web page listings on this site, feel free to [reach out on the official mailing list](https://lists.sr.ht/~bt/1mb-club-devel). Please **do not** use this as a means to send in websites, unless it is an email patch. They will be ignored and closed!
+If you come across any bugs or incorrect/dead web page listings on this site, feel free to [reach out on the official mailing list](https://www.freelists.org/list/1mb-club). Please **do not** use this as a means to send in websites, unless it is an email patch. They will be ignored and closed!
 
 Thank you.
