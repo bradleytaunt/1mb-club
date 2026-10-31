@@ -28,7 +28,7 @@ Any websites suspected of being fully LLM-based or AI-generated will **not be pe
 1. Clone the project from: [git.btxx.org/1mb-club/](https://git.btxx.org/1mb-club/)
 2. Check your website's *total* size (not transferred!) using Firefox's Network tab.
   - Make sure you have `cache` disabled and ensure all resources have loaded. You might need to scroll the entire page if any assets are loaded in dynamically.
-3. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and submit a patch through [the official mailing list](https://lists.sr.ht/~bt/1mb-club-devel).
+3. If your site satisfies this requirement, add it to the existing `_data/sites.yml` file (following the same format as other members) and submit a [git email patch](mailto:1mb-club@freelists.org). (You can also subscribe and/or view the full [mailing list archive](https://www.freelists.org/list/1mb-club))
 4. I will then review your patch and merge it into master. Once merged, your site will be added to the list.
 
 > **Note:** Don't worry about where you place your content inside the existing `_data/sites.yml` file. The order will be automatically reformatted once it is approved and merged into `master`.
