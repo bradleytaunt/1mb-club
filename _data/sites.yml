@@ -556,7 +556,7 @@
 
 - domain: dmwp.suckmost.org/giveuphc
   size: 120.8
-  hof: true
+  http: true
 
 - domain: documentation.platformos.com
   size: 100.3
