@@ -554,6 +554,10 @@
   size: 291.9
   hof: true
 
+- domain: dmwp.suckmost.org/giveuphc
+  size: 120.8
+  hof: true
+
 - domain: documentation.platformos.com
   size: 100.3
 
@@ -920,10 +924,6 @@
 
 - domain: introsec.de
   size: 176.9
-
-- domain: dmwp.suckmost.org/giveuphc
-  size: 120.8
-  hof: true
 
 - domain: ionathan.ch
   size: 157.4
